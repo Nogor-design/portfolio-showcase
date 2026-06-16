@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Empire of Drawdown | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260616" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">TypeScript / React / Fastify / Simulation</p>
+          <h1>Empire of Drawdown</h1>
+          <p class="lead">
+            A trading-strategy game that turns deterministic replay, risk, and strategy outcomes
+            into a browser walkthrough a reviewer can understand quickly.
+          </p>
+        </div>
+        <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown dashboard with API status and playable loop target" />
+      </section>
+
+      <section class="case-media-strip" aria-label="Empire of Drawdown demo screenshots">
+        <figure>
+          <img src="media/empire-battle-replay.png" alt="Empire of Drawdown deterministic battle replay screen with replay metrics and active battle card" />
+          <figcaption>Battle Replay: backend replay payload rendered as deterministic frontend playback.</figcaption>
+        </figure>
+        <figure>
+          <img src="media/empire-debrief.png" alt="Empire of Drawdown debrief screen with trades, campaign status, realized PnL, session summary, and trade ledger" />
+          <figcaption>Debrief Chamber: campaign outcome metrics and trade ledger from the seeded demo.</figcaption>
+        </figure>
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            Strategy replay systems are hard to inspect when they are presented only as logs,
+            CSVs, or backend test results. This project wraps the same kind of deterministic
+            infrastructure in a game layer so a reviewer can see the flow from configuration to
+            replay to debrief.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            The app uses a layered TypeScript monorepo: simulator, strategy engine, game domain,
+            Fastify API, and React/Vite UI. Seeded demo scenarios let the product be reviewed
+            without live brokerage connections or private trading accounts.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>Clear architecture boundaries across simulation, domain, API, and UI.</li>
+            <li>Deterministic replay and testable strategy execution.</li>
+            <li>Product thinking: seeded reviewer scenarios, battle replay, and debrief screens.</li>
+            <li>Engineering restraint around what is real versus intentionally stubbed.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Verification</h2>
+          <p>
+            Current audit: Node and npm available, dependencies installed, `npm.cmd test` passed
+            with 169 tests and 8 skipped. Demo-mode API and Vite web launch both returned HTTP 200.
+          </p>
+        </article>
+        <article>
+          <h2>Redaction Note</h2>
+          <p>
+            Public materials show simulation and software architecture only. They do not include
+            live brokerage connectivity, account data, or trading recommendations.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>Empire of Drawdown</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>

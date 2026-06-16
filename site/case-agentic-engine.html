@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentic Idea Validation Engine | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260616" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">Python / SQLite / Local-first workflow</p>
+          <h1>Agentic Idea Validation Engine</h1>
+          <p class="lead">
+            A local decision ledger that moves ideas through hypotheses, test plans, runs, results,
+            decision memos, reusable assets, and project promotion.
+          </p>
+        </div>
+        <img src="media/agentic-engine-dashboard.png" alt="Agentic Idea Validation Engine dashboard with ideas and indexed assets" />
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            AI-assisted development creates many ideas quickly. Without a durable evidence trail,
+            it is easy to chase the newest thought instead of testing the highest-value one.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            The engine records each idea as a structured lifecycle: idea, hypothesis, test plan,
+            test run, result, decision memo, asset, and promoted project. It stays local-first with
+            SQLite and a lightweight Python backend.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>Productized decision workflow around evidence rather than vibes.</li>
+            <li>Local-first application design with minimal runtime dependencies.</li>
+            <li>Repository/file asset indexing for reuse instead of rebuild.</li>
+            <li>Agent prompt hooks while keeping the decision record auditable.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Verification</h2>
+          <p>
+            Current audit: `python -m unittest discover tests` passed with 51 tests. The local
+            server returned HTTP 200 and the seeded dashboard screenshot was captured successfully.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>Agentic Idea Validation Engine</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>
+
