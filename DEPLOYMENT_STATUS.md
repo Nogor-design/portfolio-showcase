@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Week 4 package verified locally; GitHub Pages live version is still the prior published build until pushed
+Status: Week 4 six-case package is live and verified on GitHub Pages
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -35,12 +35,14 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after Week 3 publish:
+Live check result after Week 4 publish:
 
 - HTTP status: 200
-- Week 3 footer present: yes
-- Week 3 availability line present: yes
-- Week 3 proof-panel text present: yes
+- Week 4 footer present: yes
+- Homepage case-card count: 6
+- `case-ninja-account-manager.html` linked from homepage: yes
+- NinjaAccountManager case page returns the expected title/H1: yes
+- NinjaAccountManager page images loaded: yes, 3 images
 - JAF case page references `jaf-package-proof.png`: yes
 - TA case page references `ta-weekly-report-suite.png`: yes
 - resume PDF returns HTTP 200: yes
@@ -49,8 +51,8 @@ Live check result after Week 3 publish:
 
 Browser QA result:
 
-- Desktop render passed for homepage, JAF, TA Foundation, and Empire pages.
-- Mobile render at 390px passed for homepage, JAF, TA Foundation, and Empire pages.
+- Local desktop and mobile render passed across all 7 site pages before publish.
+- Live homepage and NinjaAccountManager page render passed after publish.
 - No missing images.
 - No missing alt text.
 - No horizontal overflow.
@@ -78,10 +80,10 @@ A GitHub Pages branch-publish workflow now exists at:
 
 It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
 
-The `gh-pages` branch has also been pushed manually from the current site package. Week 3 publish commit:
+The `gh-pages` branch is updated by the branch-publish workflow. Week 4 source commit:
 
 ```text
-6d904f0 Deploy week three portfolio site
+4366477 Publish week four six-case portfolio
 ```
 
 Verified Pages URL:
@@ -90,7 +92,11 @@ Verified Pages URL:
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-The branch-publish workflow completed successfully for the verified deploy.
+The branch-publish workflow completed successfully for the verified Week 4 deploy:
+
+```text
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27712655651
+```
 
 ## Current Manual Redeploy Package
 

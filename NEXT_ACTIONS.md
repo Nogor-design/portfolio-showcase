@@ -28,7 +28,7 @@ Status as of 2026-06-17 Week 4 sixth-case package.
 
 ## Immediate Next Work
 
-1. Re-verify and publish the Week 4 six-case site to GitHub Pages.
+1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
 2. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 3. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
 4. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
@@ -113,6 +113,9 @@ Status as of 2026-06-17 Week 4 sixth-case package.
   - `site/case-ninja-account-manager.html` was added.
   - Homepage now presents six case studies.
   - `WEEK_FOUR_RUNBOOK.md` and `WEEK_FOUR_COMPLETION_AUDIT.md` preserve the handoff.
+  - Week 4 commit `4366477` was pushed to `master`.
+  - Branch-publish workflow run `27712655651` completed successfully.
+  - Live GitHub Pages verification passed for the six-card homepage and NinjaAccountManager case page.
 
 ## Current Local Open Command
 
