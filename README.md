@@ -1,6 +1,6 @@
 # A1 Portfolio Program Manager
 
-This folder is the command center for building Eric Irwin's software portfolio in one week.
+This folder is the command center for building and publishing Eric Irwin's software portfolio.
 
 The portfolio should present existing work as polished, safe, recruiter-readable proof:
 
@@ -24,8 +24,9 @@ Do not invent portfolio projects until existing projects have been inspected, re
 | `MODEL_ROUTING_AND_TOKEN_BUDGET.md` | Which model type gets which work, plus budget rules |
 | `REDACTION_POLICY.md` | What must be removed or sanitized before anything becomes public |
 | `WEEK_ONE_RUNBOOK.md` | Day-by-day execution plan |
+| `WEEK_TWO_RUNBOOK.md` | Public deployment, sharing, polish, and outreach plan |
 
-## First Delivery Target
+## Delivery Target
 
 A usable portfolio site with 5-7 strong case studies, each containing:
 
@@ -36,4 +37,3 @@ A usable portfolio site with 5-7 strong case studies, each containing:
 - Technical highlights
 - Business value
 - Safety/redaction note where relevant
-

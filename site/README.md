@@ -1,10 +1,10 @@
 # Eric Irwin Portfolio Site
 
-Static portfolio draft for Week 1.
+Static portfolio package.
 
 ## Open Locally
 
-From `D:\a1-program-manager\site`:
+From this `site` directory:
 
 ```powershell
 python -m http.server 8787 --bind 127.0.0.1
@@ -32,9 +32,12 @@ http://127.0.0.1:8787/
 | File | Source / Safety |
 |---|---|
 | `media/empire-of-drawdown.png` | Captured from demo-mode local app |
+| `media/empire-battle-replay.png` | Captured from seeded demo Battle Replay |
+| `media/empire-debrief.png` | Captured from seeded demo Debrief Chamber |
 | `media/job-application-factory.png` | Captured with temporary `JAF_DATA_DIR` and Mock Demo Mode active |
 | `media/trades-resource-dashboard.png` | Captured from sanitized runtime copy with demo data and no admin pages visible |
 | `media/agentic-engine-dashboard.png` | Captured from seeded local dashboard |
+| `media/ta-foundation-suite.png` | Generated sanitized TA Foundation architecture/coverage visual |
 | `media/portfolio-home-draft.png` | Full-page screenshot of the current homepage |
 | `Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf` | Resume copied into site package so static server can serve it |
 
@@ -50,9 +53,6 @@ Latest verification checked:
 
 ## Remaining Polish
 
-- Capture deeper Empire Battle Replay and Debrief screenshots.
 - Add sanitized TA Foundation report screenshots.
 - Add one more systems/backend case study if desired: Market Data Pipeline or NinjaAccountManager.
-- Decide final deployment target.
-- Add real contact links when ready.
-
+- Confirm deployment target and custom domain.

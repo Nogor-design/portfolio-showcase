@@ -29,6 +29,10 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | RUN-003 | done | Codex | Empire of Drawdown | Launch API/web demo mode | Runability notes and screenshot list | API/web launch fixed; overview, Battle Replay, and Debrief screenshots captured |
 | RUN-004 | done | Codex | Job Application Factory | Verify mock demo mode without personal data | Runability notes and screenshot list | Temporary data dir used; Mock Demo Mode verified; screenshot captured |
 | RUN-005 | done | Codex | TA Foundation | Create public-safe visual without strategy/account leakage | Sanitized visual and verification notes | `site/media/ta-foundation-suite.png` generated; homepage/detail page wired; browser verification passed |
+| DEPLOY-001 | done | Codex | Portfolio Site | Purge unsafe Git history | Single clean root commit | `master` rewritten to one public-safe commit |
+| DEPLOY-002 | done | Codex | Portfolio Site | Add Netlify repo config | `netlify.toml` | Netlify should publish `site/` when connected to GitHub |
+| SITE-004 | done | Codex | Portfolio Site | Add intentional contact links | Homepage contact buttons | Email, GitHub, and resume links added |
+| QA-002 | todo | Codex | Portfolio Site | Verify live Netlify deploy after Git-connected rebuild | Live URL QA notes | Current drag-drop URL still serves old separators; needs Git-connected deploy or manual redeploy |
 
 ## Completed Discovery
 
@@ -53,6 +57,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-16 | Codex | Added interview talking points and public redaction review; re-verified site after cropping Trades screenshot |
 | 2026-06-16 | Codex | Generated sanitized TA Foundation visual, wired it into the site, and re-verified desktop/mobile rendering |
 | 2026-06-16 | Codex | Captured Empire Battle Replay and Debrief screenshots, added them to the case page, and re-verified desktop/mobile rendering |
+| 2026-06-16 | Codex | Rewrote Git history to a single clean commit and added Week 2 deployment/contact work |
 
 ## Delegation Prompt Pattern
 

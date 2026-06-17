@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-16 12:55 local.
+Status as of 2026-06-16 Week 2 kickoff.
 
 ## Verified So Far
 
@@ -66,6 +66,12 @@ Status as of 2026-06-16 12:55 local.
   - No missing images or alt text.
   - No desktop horizontal overflow.
   - Mobile checks at 390px passed for homepage, Empire, and TA Foundation.
+- Week 2 kickoff:
+  - Git history was purged to one clean public-safe commit.
+  - `netlify.toml` added so Netlify can publish `site/` from GitHub.
+  - Homepage contact buttons added for email, GitHub, and resume.
+  - Local desktop/mobile verification passed after contact/deployment updates.
+  - Live drag-drop Netlify URL still serves the older separator issue until redeployed or connected to GitHub.
 
 ## Current Local Open Command
 

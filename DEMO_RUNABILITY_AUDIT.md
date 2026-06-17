@@ -50,6 +50,16 @@ Date: 2026-06-16
   - No desktop horizontal overflow.
   - Mobile checks at 390px passed for homepage, Empire, and TA Foundation.
   - Updated full-page screenshot saved at `site/media/portfolio-home-draft.png`.
+- Week 2 local verification after deployment/contact updates:
+  - Homepage contact links present: email, GitHub, and resume.
+  - Homepage image count: 5.
+  - Empire case page image count: 3.
+  - TA Foundation case page image count: 1.
+  - No missing images or alt text on checked pages.
+  - No desktop horizontal overflow.
+  - Mobile checks at 390px passed for homepage, Empire, and TA Foundation.
+  - Browser console warning/error check returned empty.
+  - Full-page screenshot refresh timed out in the browser tool; layout/media checks still passed.
 - Individual case-study page verification:
   - Pages added for Empire of Drawdown, Job Application Factory, Trades Resource, Agentic Engine, and TA Foundation.
   - All six static pages returned expected title/H1 content in headless browser checks.
