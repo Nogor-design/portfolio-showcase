@@ -28,11 +28,11 @@ Status as of 2026-06-17 Week 2 proof pass.
 
 ## Immediate Next Work
 
-1. Generate or locate true sanitized `ta_foundation` report artifacts beyond the current system visual.
-2. Decide whether Market Data Pipeline or NinjaAccountManager becomes the sixth public case study.
-3. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
-4. Rebuild/redeploy Netlify from the GitHub-backed repo and verify the live URL is on the latest commit.
-5. Draft the recruiter share message and technical walkthrough script.
+1. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
+2. Rebuild/redeploy Netlify from the GitHub-backed repo and verify the live URL is on the latest commit.
+3. Review `OUTREACH_PACKAGE.md` after live Netlify QA and replace `[insert verified live URL]`.
+4. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
+5. Decide whether to defer custom domain work or connect one after Netlify Git deploy is current.
 
 ## Added Since Previous Status
 
@@ -80,6 +80,14 @@ Status as of 2026-06-17 Week 2 proof pass.
   - Local browser verification passed for homepage and JAF case page at desktop width.
   - Mobile checks at 390px passed for homepage, JAF, Empire, and TA Foundation.
   - Static asset parser found no missing image files or missing alt text.
+  - Outreach package drafted at `OUTREACH_PACKAGE.md`.
+- TA Foundation report proof:
+  - `site/media/ta-weekly-report-suite.png` generated from verified report-suite and weekly coverage summary artifacts.
+  - Raw TA HTML reports and manifest rows were not copied into the public site.
+  - TA case page now includes the sanitized report proof board.
+- Sixth case decision:
+  - `NinjaAccountManager` chosen if a sixth case study is added because it contributes desktop/runtime/WebSocket integration.
+  - `Market Data Pipeline` deferred or folded into TA Foundation because it overlaps with the existing data/reporting story.
 
 ## Current Local Open Command
 

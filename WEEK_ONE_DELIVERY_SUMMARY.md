@@ -1,6 +1,6 @@
 # Week One Delivery Summary
 
-Status: active draft, not final public launch  
+Status: superseded by Week 2 work; retained as historical Week 1 snapshot
 Date: 2026-06-16
 
 ## What Exists Now
@@ -65,20 +65,19 @@ http://127.0.0.1:8787/
 
 ## Known Gaps Before Public Deployment
 
-These are not blockers for a local draft, but they matter before publishing:
+These were the Week 1 gaps before public deployment. Current Week 2 status is tracked in `WEEK_TWO_RUNBOOK.md` and `NEXT_ACTIONS.md`.
 
-1. Contact links are not final.
-2. Empire can be improved with a short walkthrough video now that deeper Replay/Debrief screenshots exist.
-3. TA Foundation can be improved with true sanitized report screenshots beyond the current architecture/coverage visual.
-4. JAF package screenshots should only be added after confirming generated packages are fictional.
-5. A sixth systems/backend case study should be selected if we want broader platform coverage.
-6. Final copy should be reviewed for recruiter clarity and contract-sales clarity.
-7. `site/README.md` includes local open instructions; edit or omit it for public hosting if needed.
+1. Contact links were added in Week 2.
+2. Empire walkthrough video remains optional.
+3. TA Foundation now has a sanitized report proof board in Week 2.
+4. JAF package proof was added after fictional demo-package verification.
+5. NinjaAccountManager was chosen as the sixth-case candidate, pending mocked demo capture.
+6. Live Netlify QA remains the main public-sharing gate.
 
 ## Recommended Next Work Order
 
-1. Add true sanitized TA Foundation report screenshots if we can generate or redact them safely.
-2. Confirm JAF generated packages use fictional data before showing package screenshots.
-3. Add one backend/systems case study: Market Data Pipeline or NinjaAccountManager.
-4. Add final contact links and deployment target.
-5. Run full link/media/mobile verification again.
+1. Rebuild or redeploy Netlify from the GitHub-backed repo.
+2. Verify live URL against the latest GitHub commit.
+3. Replace placeholder live URL text in `OUTREACH_PACKAGE.md`.
+4. Optionally capture an Empire walkthrough video.
+5. Optionally add NinjaAccountManager after a mocked demo exists.

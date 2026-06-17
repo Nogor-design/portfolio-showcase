@@ -39,6 +39,7 @@ http://127.0.0.1:8787/
 | `media/trades-resource-dashboard.png` | Captured from sanitized runtime copy with demo data and no admin pages visible |
 | `media/agentic-engine-dashboard.png` | Captured from seeded local dashboard |
 | `media/ta-foundation-suite.png` | Generated sanitized TA Foundation architecture/coverage visual |
+| `media/ta-weekly-report-suite.png` | Sanitized proof board derived from TA Foundation report-suite and weekly coverage artifacts |
 | `media/portfolio-home-draft.png` | Full-page screenshot of the current homepage |
 | `Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf` | Resume copied into site package so static server can serve it |
 
@@ -52,9 +53,10 @@ Latest verification checked:
 - Homepage, Empire case study, Job Application Factory case study, and TA Foundation case study render without horizontal overflow at 390px mobile width.
 - Images load with nonzero dimensions and alt text.
 - Job Application Factory proof visual loads on the case-study page.
+- TA Foundation report proof visual loads on the case-study page.
 
 ## Remaining Polish
 
-- Add sanitized TA Foundation report screenshots.
-- Add one more systems/backend case study if desired: Market Data Pipeline or NinjaAccountManager.
+- Optional: add a more polished sanitized TA Foundation report screenshot later.
+- Optional: add NinjaAccountManager as the sixth case after a mocked WebSocket/account demo exists.
 - Confirm deployment target and custom domain.

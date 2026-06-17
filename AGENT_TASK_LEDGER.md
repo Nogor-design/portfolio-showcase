@@ -33,6 +33,9 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | DEPLOY-002 | done | Codex | Portfolio Site | Add Netlify repo config | `netlify.toml` | Netlify should publish `site/` when connected to GitHub |
 | SITE-004 | done | Codex | Portfolio Site | Add intentional contact links | Homepage contact buttons | Email, GitHub, and resume links added |
 | RUN-006 | done | Codex | Job Application Factory | Verify and publish mock package proof | `site/media/jaf-package-proof.png` plus case-page media strip | Generated with ignored temporary `JAF_DATA_DIR`; fictional Alex Builder/VibeTech data only |
+| OUT-001 | done | Codex | Portfolio Site | Draft outreach/share package | `OUTREACH_PACKAGE.md` | Includes recruiter message, hiring-manager message, talk track, and demo order |
+| RUN-007 | done | Codex + Banach | TA Foundation | Add sanitized report proof board | `site/media/ta-weekly-report-suite.png` plus TA case-page media strip | Derived from report-suite index and weekly coverage package summary; raw manifests withheld |
+| INV-005 | done | Codex + Aquinas | Portfolio Site | Decide sixth case candidate | `SIXTH_CASE_DECISION.md` | NinjaAccountManager wins; Market Data Pipeline deferred or folded into TA |
 | QA-002 | todo | Codex | Portfolio Site | Verify live Netlify deploy after Git-connected rebuild | Live URL QA notes | Current drag-drop URL still serves old separators; needs Git-connected deploy or manual redeploy |
 
 ## Completed Discovery
@@ -60,6 +63,9 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-16 | Codex | Captured Empire Battle Replay and Debrief screenshots, added them to the case page, and re-verified desktop/mobile rendering |
 | 2026-06-16 | Codex | Rewrote Git history to a single clean commit and added Week 2 deployment/contact work |
 | 2026-06-17 | Codex | Verified JAF generated packages use fictional demo data and added the proof visual to the case page |
+| 2026-06-17 | Codex | Drafted outreach package for recruiter/hiring-manager sharing and updated homepage Week 2 footer |
+| 2026-06-17 | Codex + Banach | Added TA Foundation sanitized report proof board from generated report artifacts |
+| 2026-06-17 | Codex + Aquinas | Chose NinjaAccountManager as the sixth-case candidate, pending mocked demo capture |
 
 ## Delegation Prompt Pattern
 

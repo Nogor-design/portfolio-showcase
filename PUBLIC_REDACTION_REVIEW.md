@@ -41,6 +41,7 @@ Search terms included:
 | `media/trades-resource-dashboard.png` | Safe for draft after crop; generated demo data only |
 | `media/agentic-engine-dashboard.png` | Safe for draft; seeded demo dashboard |
 | `media/ta-foundation-suite.png` | Safe for draft; generated sanitized system visual with no local paths, accounts, broker IDs, or proprietary strategy rules |
+| `media/ta-weekly-report-suite.png` | Safe for draft; sanitized proof board derived from report artifacts, with raw manifest rows withheld |
 
 ## Before Publishing
 
@@ -48,5 +49,5 @@ Search terms included:
 2. Keep `site/README.md` local-open instructions generic if it remains published.
 3. Confirm final contact links intentionally before broad sharing.
 4. Confirm resume PDF is the version intended for public distribution.
-5. Re-run a redaction scan after any future TA Foundation report screenshots are added.
+5. Re-run a redaction scan after any future TA Foundation raw-report screenshots are added.
 6. Re-check live Netlify after connecting the repo or manually redeploying from the latest GitHub state.

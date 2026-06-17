@@ -48,7 +48,9 @@ Progress:
 
 - JAF package proof completed from the app's demo generator using fictional Alex Builder/VibeTech data.
 - Public visual added at `site/media/jaf-package-proof.png`.
-- Remaining proof decision: TA Foundation sanitized report artifact vs. keeping the current system visual, plus optional Empire walkthrough video.
+- TA Foundation report proof board added at `site/media/ta-weekly-report-suite.png`, derived from verified report-suite and weekly coverage summary artifacts.
+- Raw TA report HTML and manifest rows remain private because they include strategy names, parameters, PnL rows, and local paths.
+- Remaining proof decision: optional Empire walkthrough video.
 
 ## Day 4: Sixth Case Study Decision
 
@@ -63,6 +65,12 @@ Decision criteria:
 - The project adds a genuinely new capability signal.
 - It can be explained clearly in under 90 seconds.
 
+Progress:
+
+- Decision recorded in `SIXTH_CASE_DECISION.md`.
+- `NinjaAccountManager` is the chosen sixth-case candidate because it adds desktop/runtime/WebSocket integration.
+- `Market Data Pipeline` is deferred or folded into TA Foundation because its data-platform signal overlaps with existing TA reporting/data infrastructure.
+
 ## Day 5: Copy Tightening
 
 Goals:
@@ -70,6 +78,12 @@ Goals:
 - Rewrite homepage and case-study copy for recruiter clarity.
 - Keep trading-related language framed as software engineering and analytics infrastructure.
 - Make business workflow value obvious to non-technical readers.
+
+Progress:
+
+- Homepage footer moved from Week 1 draft language to Week 2 public-build language.
+- Outreach package and case-study captions now explicitly frame artifacts as public-safe/sanitized proof rather than raw trading outputs.
+- Remaining optional copy pass: recruiter-style shortening after live deployment is current.
 
 ## Day 6: Public QA
 
@@ -79,6 +93,11 @@ Goals:
 - Check images, alt text, resume link, contact links, mobile overflow, and obvious redaction terms.
 - Confirm the live deployment is using the latest commit.
 
+Progress:
+
+- Local QA passed after JAF proof, TA proof, outreach package, and sixth-case decision updates.
+- Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
+
 ## Day 7: Outreach Package
 
 Goals:
@@ -86,3 +105,8 @@ Goals:
 - Produce a short share message for recruiters/hiring managers.
 - Produce a longer technical walkthrough script.
 - Produce an interview demo order.
+
+Progress:
+
+- Draft outreach package created at `OUTREACH_PACKAGE.md`.
+- The package is intentionally gated on live Netlify QA before broad sharing.

@@ -16,8 +16,8 @@ This inventory is the starting shortlist. Each entry needs current verification 
 
 | Project | Path | Portfolio Story | Demo Surface | Packaging Priority |
 |---|---|---|---|---|
-| Market Data Pipeline | `D:\MarketDataPipline` | Async market-data collection, storage, gap detection, API, and analytics | FastAPI docs, sample data, DuckDB query, gap report | Use if data-engineering angle matters |
-| NinjaAccountManager | `D:\NinjaAccountManager` | Real-time NinjaTrader account monitor and order bridge | DearPyGUI screenshot, mocked WebSocket event stream | Use as desktop/runtime integration proof |
+| Market Data Pipeline | `D:\MarketDataPipline` | Async market-data collection, storage, gap detection, API, and analytics | FastAPI docs, sample data, DuckDB query, gap report | Defer or fold into TA Foundation unless data-engineering angle matters |
+| NinjaAccountManager | `D:\NinjaAccountManager` | Real-time NinjaTrader account monitor and order bridge | DearPyGUI screenshot, mocked WebSocket event stream | Chosen sixth case if a sanitized mocked demo is added |
 | Local Deep Research | `D:\local-deep-research\local-deep-research` | Local research agent with cited reports and multiple search modes | Web UI, cited report artifact | Use carefully depending on authorship/contribution clarity |
 
 ## Tier 3: Supporting Or Bonus

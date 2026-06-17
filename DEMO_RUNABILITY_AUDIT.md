@@ -200,8 +200,22 @@ The first four lead case studies all have plausible local demo paths. The next s
   - A sanitized dashboard-style visual was generated instead at `site/media/ta-foundation-suite.png`.
   - The visual shows pipeline, capability signals, and weekly coverage matrix structure without account data, broker identifiers, local paths, or proprietary strategy rules.
   - The visual is wired into the homepage and TA Foundation detail page.
+- 2026-06-17 verification:
+  - Generated report-suite index inspected at `ExampleWeeklyReport/index.html`.
+  - Weekly coverage package summary inspected at `operationally_diverse_weekly_coverage_package_report.html`.
+  - Raw weekly manifest rows were rejected for public use because they include template names, parameters, PnL rows, and local paths.
+  - Sanitized report proof board generated at `site/media/ta-weekly-report-suite.png`.
+  - TA Foundation detail page now includes the report proof board.
+  - Local browser verification after wiring:
+    - Homepage footer now shows Week 2 status.
+    - TA Foundation case page image count: 2.
+    - TA report proof image loaded with nonzero dimensions.
+    - No missing images or alt text on checked pages.
+    - No desktop horizontal overflow.
+    - Mobile checks at 390px passed for homepage, TA Foundation, JAF, and Empire.
+    - Browser console warning/error check returned empty.
 - Audit needed:
-  - Generate true sanitized report screenshots from fixture or demo data if we want to show more than architecture/coverage packaging.
+  - Optional: capture a more polished cropped screenshot later from a sanitized report copy, but do not publish raw report HTML.
 
 ## Next Launch Order
 
