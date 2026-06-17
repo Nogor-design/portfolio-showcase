@@ -27,3 +27,6 @@ Do not add a sixth public case in Week 3. The portfolio already satisfies the ch
 - Browser desktop check passed: Week 3 footer visible, availability line visible, all images loaded, no horizontal overflow, and no console warnings/errors.
 - Browser mobile check at 390px passed: five case cards present, buttons fit, no horizontal overflow, and no console warnings/errors.
 - `site.zip` was refreshed from the current `site/` folder for manual Netlify redeploy if needed.
+- `master` was pushed at commit `0451186`.
+- `gh-pages` was manually updated at commit `6d904f0`.
+- Live GitHub Pages verification passed after publish: Week 3 footer, availability line, and new proof-panel text are present at `https://nogor-design.github.io/portfolio-showcase/`.

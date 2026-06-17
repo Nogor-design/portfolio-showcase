@@ -35,10 +35,12 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result:
+Live check result after Week 3 publish:
 
 - HTTP status: 200
-- Week 2 footer present: yes
+- Week 3 footer present: yes
+- Week 3 availability line present: yes
+- Week 3 proof-panel text present: yes
 - JAF case page references `jaf-package-proof.png`: yes
 - TA case page references `ta-weekly-report-suite.png`: yes
 - resume PDF returns HTTP 200: yes
@@ -76,7 +78,11 @@ A GitHub Pages branch-publish workflow now exists at:
 
 It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
 
-The `gh-pages` branch has also been pushed manually once from the current site package.
+The `gh-pages` branch has also been pushed manually from the current site package. Week 3 publish commit:
+
+```text
+6d904f0 Deploy week three portfolio site
+```
 
 Verified Pages URL:
 
