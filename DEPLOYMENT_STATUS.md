@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Week 4 six-case package is live and verified on GitHub Pages
+Status: Week 5 nine-case package is live and verified on GitHub Pages
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -35,14 +35,20 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after Week 4 publish:
+Live check result after Week 5 publish:
 
 - HTTP status: 200
-- Week 4 footer present: yes
-- Homepage case-card count: 6
+- Week 5 footer present: yes
+- Homepage case-card count: 9
 - `case-ninja-account-manager.html` linked from homepage: yes
+- `case-trader-dan.html` linked from homepage: yes
+- `case-ma-cross-workbench.html` linked from homepage: yes
+- `case-large-candle-studio.html` linked from homepage: yes
 - NinjaAccountManager case page returns the expected title/H1: yes
 - NinjaAccountManager page images loaded: yes, 3 images
+- TraderDan case page returns the expected title/H1 and images load: yes
+- MA-Cross Workbench case page returns the expected title/H1 and images load: yes
+- Large Candle Studio case page returns the expected title/H1 and images load: yes
 - JAF case page references `jaf-package-proof.png`: yes
 - TA case page references `ta-weekly-report-suite.png`: yes
 - resume PDF returns HTTP 200: yes
@@ -51,8 +57,8 @@ Live check result after Week 4 publish:
 
 Browser QA result:
 
-- Local desktop and mobile render passed across all 7 site pages before publish.
-- Live homepage and NinjaAccountManager page render passed after publish.
+- Local desktop and mobile render passed across all 10 site pages before publish.
+- Live homepage, TraderDan, MA-Cross, and Large Candle pages rendered after publish.
 - No missing images.
 - No missing alt text.
 - No horizontal overflow.
@@ -80,10 +86,10 @@ A GitHub Pages branch-publish workflow now exists at:
 
 It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
 
-The `gh-pages` branch is updated by the branch-publish workflow. Week 4 source commit:
+The `gh-pages` branch is updated by the branch-publish workflow. Week 5 source commit:
 
 ```text
-4366477 Publish week four six-case portfolio
+086de90 Add client and strategy analysis portfolio cases
 ```
 
 Verified Pages URL:
@@ -92,15 +98,15 @@ Verified Pages URL:
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-The branch-publish workflow completed successfully for the verified Week 4 deploy:
+The branch-publish workflow completed successfully for the verified Week 5 deploy:
 
 ```text
-https://github.com/Nogor-design/portfolio-showcase/actions/runs/27712655651
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27714428021
 ```
 
 ## Current Manual Redeploy Package
 
-Latest static package was refreshed after the Week 4 six-case local verification pass at:
+Latest static package was refreshed after the Week 5 nine-case local verification pass at:
 
 ```text
 D:\a1-program-manager\site.zip
@@ -113,10 +119,16 @@ Manual Netlify path:
 1. Open Netlify.
 2. Drag `D:\a1-program-manager\site.zip` or the `D:\a1-program-manager\site` folder into a manual deploy.
 3. Re-check the live URL for:
-   - `Public portfolio build / Week 4`
+   - `Public portfolio build / Week 5 candidate expansion`
    - `case-ninja-account-manager.html`
+   - `case-trader-dan.html`
+   - `case-ma-cross-workbench.html`
+   - `case-large-candle-studio.html`
    - `ninja-account-manager-dashboard.png`
    - `ninja-account-manager-strategy.png`
+   - `trader-dan-home.png`
+   - `ma-cross-workbench.png`
+   - `large-candle-studio.png`
    - `jaf-package-proof.png`
    - `ta-weekly-report-suite.png`
    - no mojibake marker

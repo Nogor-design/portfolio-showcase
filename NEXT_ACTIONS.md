@@ -28,8 +28,8 @@ Status as of 2026-06-17 Week 5 candidate expansion package.
 
 ## Immediate Next Work
 
-1. Re-verify and publish the expanded nine-case portfolio.
-2. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL after the expanded build is live.
+1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
+2. Do a human copy pass on the three new cases before broad client-facing sharing.
 3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
 5. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
@@ -127,6 +127,9 @@ Status as of 2026-06-17 Week 5 candidate expansion package.
     - `site/media/large-candle-studio.png`
   - Case pages added for TraderDan, MA-Cross Workbench, and Large Candle Excursion Studio.
   - Homepage now presents nine case studies.
+  - Expanded commit `086de90` was pushed to `master`.
+  - Branch-publish workflow run `27714428021` completed successfully.
+  - Live GitHub Pages verification passed for the nine-card homepage and the three new case pages.
 
 ## Current Local Open Command
 
