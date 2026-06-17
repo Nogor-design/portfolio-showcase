@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 Week 2 proof pass.
+Status as of 2026-06-17 Week 2 public verification.
 
 ## Verified So Far
 
@@ -28,11 +28,11 @@ Status as of 2026-06-17 Week 2 proof pass.
 
 ## Immediate Next Work
 
-1. Enable/verify GitHub Pages from the `gh-pages` branch or rebuild/redeploy Netlify from the GitHub-backed repo, then verify the live URL is on the latest commit.
-2. Review `OUTREACH_PACKAGE.md` after live QA and replace `[insert verified live URL]`.
+1. Share the verified GitHub Pages URL: `https://nogor-design.github.io/portfolio-showcase/`.
+2. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 3. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
-4. Reconsider an Empire walkthrough video only after the live deploy is current.
-5. Reconsider a custom domain only after Git-connected Netlify or GitHub Pages deploy is working.
+4. Reconsider an Empire walkthrough video only if the first public pass needs motion.
+5. Reconsider a custom domain as optional future polish.
 
 ## Added Since Previous Status
 
@@ -89,15 +89,17 @@ Status as of 2026-06-17 Week 2 proof pass.
   - `NinjaAccountManager` chosen if a sixth case study is added because it contributes desktop/runtime/WebSocket integration.
   - `Market Data Pipeline` deferred or folded into TA Foundation because it overlaps with the existing data/reporting story.
 - Deployment status:
+  - GitHub Pages is live and verified at `https://nogor-design.github.io/portfolio-showcase/`.
   - Latest GitHub commit is pushed, but the current Netlify drag-drop URL still serves the older build.
   - Netlify CLI is available through `npx` but not logged in.
   - Fresh manual redeploy package created at `D:\a1-program-manager\site.zip`.
   - Details recorded in `DEPLOYMENT_STATUS.md`.
   - GitHub Pages branch workflow added to publish `site/` from `master` into `gh-pages`.
   - `gh-pages` branch was pushed manually once from the current site package.
+  - Branch-publish workflow completed successfully.
 - Completion audit:
-  - `WEEK_TWO_COMPLETION_AUDIT.md` records local completion evidence and the remaining external live-deploy gate.
-  - Empire video and custom domain are deferred until after the live deploy is current.
+  - `WEEK_TWO_COMPLETION_AUDIT.md` records public GitHub Pages completion evidence.
+  - Empire video and custom domain are deferred as optional future polish.
 
 ## Current Local Open Command
 

@@ -36,8 +36,8 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | OUT-001 | done | Codex | Portfolio Site | Draft outreach/share package | `OUTREACH_PACKAGE.md` | Includes recruiter message, hiring-manager message, talk track, and demo order |
 | RUN-007 | done | Codex + Banach | TA Foundation | Add sanitized report proof board | `site/media/ta-weekly-report-suite.png` plus TA case-page media strip | Derived from report-suite index and weekly coverage package summary; raw manifests withheld |
 | INV-005 | done | Codex + Aquinas | Portfolio Site | Decide sixth case candidate | `SIXTH_CASE_DECISION.md` | NinjaAccountManager wins; Market Data Pipeline deferred or folded into TA |
-| PM-003 | done | Codex | Program | Audit Week 2 completion and remaining gate | `WEEK_TWO_COMPLETION_AUDIT.md` | Local Week 2 work complete; live deployment stale until Netlify redeploy/auth |
-| QA-002 | todo | Codex | Portfolio Site | Verify live Netlify deploy after Git-connected rebuild | Live URL QA notes | Current drag-drop URL still serves old separators; needs Git-connected deploy or manual redeploy |
+| PM-003 | done | Codex | Program | Audit Week 2 completion and remaining gate | `WEEK_TWO_COMPLETION_AUDIT.md` | Week 2 complete and publicly verified on GitHub Pages |
+| QA-002 | done | Codex | Portfolio Site | Verify live public deploy | Live URL QA notes | GitHub Pages passed; old Netlify drag-drop URL remains stale and should not be shared |
 
 ## Completed Discovery
 
@@ -68,6 +68,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-17 | Codex + Banach | Added TA Foundation sanitized report proof board from generated report artifacts |
 | 2026-06-17 | Codex + Aquinas | Chose NinjaAccountManager as the sixth-case candidate, pending mocked demo capture |
 | 2026-06-17 | Codex | Added Week 2 completion audit and deferred Empire video/custom domain until live deploy is current |
+| 2026-06-17 | Codex | Published and verified GitHub Pages live portfolio at `https://nogor-design.github.io/portfolio-showcase/` |
 
 ## Delegation Prompt Pattern
 

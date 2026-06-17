@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: live Netlify deploy is stale; GitHub Pages branch workflow added
+Status: GitHub Pages live and verified; old Netlify deploy is stale
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -29,6 +29,31 @@ Live check result:
 
 Conclusion: this URL is still serving the older manual drag-drop deploy, not the latest GitHub state.
 
+## Verified Live GitHub Pages URL
+
+```text
+https://nogor-design.github.io/portfolio-showcase/
+```
+
+Live check result:
+
+- HTTP status: 200
+- Week 2 footer present: yes
+- JAF case page references `jaf-package-proof.png`: yes
+- TA case page references `ta-weekly-report-suite.png`: yes
+- resume PDF returns HTTP 200: yes
+- proof PNGs return HTTP 200: yes
+- mojibake present: no
+
+Browser QA result:
+
+- Desktop render passed for homepage, JAF, TA Foundation, and Empire pages.
+- Mobile render at 390px passed for homepage, JAF, TA Foundation, and Empire pages.
+- No missing images.
+- No missing alt text.
+- No horizontal overflow.
+- No console warnings/errors.
+
 ## Deployment Blocker
 
 Netlify CLI is not globally installed. Running through `npx netlify-cli` works, but Netlify reports:
@@ -53,19 +78,13 @@ It publishes the `site/` directory to the `gh-pages` branch on pushes to `master
 
 The `gh-pages` branch has also been pushed manually once from the current site package.
 
-Expected Pages URL after GitHub Pages is enabled for the repository:
+Verified Pages URL:
 
 ```text
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-If the URL returns 404, enable Pages in the repository settings and select:
-
-```text
-Source: Deploy from a branch
-Branch: gh-pages
-Folder: / (root)
-```
+The branch-publish workflow completed successfully for the verified deploy.
 
 ## Current Manual Redeploy Package
 
@@ -85,7 +104,7 @@ Manual Netlify path:
    - `Public portfolio build / Week 2`
    - `jaf-package-proof.png`
    - `ta-weekly-report-suite.png`
-   - no `Â` mojibake
+   - no mojibake marker
 
 Preferred durable path:
 

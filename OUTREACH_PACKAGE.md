@@ -1,11 +1,11 @@
 # Outreach Package
 
-Status: draft for Week 2 public sharing  
+Status: ready for Week 2 public sharing
 Last updated: 2026-06-17
 
-## Use After Live QA
+## Verified Links
 
-Do not broad-share until the live Netlify deployment has been rebuilt from the latest GitHub commit and verified. Current deployment status lives in `DEPLOYMENT_STATUS.md`.
+Live QA has passed on GitHub Pages. Current deployment status lives in `DEPLOYMENT_STATUS.md`.
 
 Current repo:
 
@@ -13,10 +13,16 @@ Current repo:
 https://github.com/Nogor-design/portfolio-showcase
 ```
 
-Current draft live URL from manual Netlify deploy:
+Verified live portfolio:
 
 ```text
-https://6a31cd1325555e77d846b28f--heroic-gumdrop-ee0c3d.netlify.app/#top
+https://nogor-design.github.io/portfolio-showcase/
+```
+
+Verified resume:
+
+```text
+https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
 ```
 
 ## Short Recruiter Message
@@ -25,9 +31,9 @@ Hi, I am Eric Irwin. I build practical AI software, automation, analytics system
 
 I put together a portfolio with working project evidence: local-first RAG workflows, deterministic simulation, business operations dashboards, agentic validation tooling, and a large trading analytics/reporting platform. The public screenshots use demo or sanitized data only.
 
-Portfolio: [insert verified live URL]  
+Portfolio: https://nogor-design.github.io/portfolio-showcase/
 GitHub: https://github.com/Nogor-design  
-Resume: [insert resume link or attach PDF]
+Resume: https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
 
 ## Hiring Manager Message
 
@@ -43,7 +49,7 @@ The portfolio I am sharing is built from local projects that were verified durin
 
 I am especially interested in roles or contract work involving AI workflow systems, operations software, analytics tooling, and internal platforms.
 
-Portfolio: [insert verified live URL]
+Portfolio: https://nogor-design.github.io/portfolio-showcase/
 
 ## Technical Walkthrough Order
 

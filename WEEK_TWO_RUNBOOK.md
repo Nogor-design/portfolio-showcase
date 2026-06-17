@@ -1,6 +1,6 @@
 # Week Two Runbook
 
-Status: active  
+Status: complete
 Start date: 2026-06-16
 
 ## Week Two Goal
@@ -96,12 +96,13 @@ Goals:
 Progress:
 
 - Local QA passed after JAF proof, TA proof, outreach package, and sixth-case decision updates.
-- Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
+- GitHub Pages public QA passed at `https://nogor-design.github.io/portfolio-showcase/`.
 - Live check on 2026-06-17 confirmed the current URL is stale and still serves the older mojibake build.
 - Netlify CLI is available through `npx` but not logged in; fresh manual deploy package is `D:\a1-program-manager\site.zip`.
 - GitHub Pages branch workflow added as a second durable deployment path for the `site/` directory.
-- `gh-pages` branch has been published once from the current site package; repository settings may still need Pages enabled from branch root.
-- Custom domain decision deferred until Git-connected Netlify or GitHub Pages deploy is working.
+- `gh-pages` branch has been published from the current site package and the branch-publish workflow completed successfully.
+- Old Netlify drag-drop URL remains stale and should not be shared unless redeployed.
+- Custom domain decision deferred as optional future polish.
 
 ## Day 7: Outreach Package
 
@@ -113,5 +114,5 @@ Goals:
 
 Progress:
 
-- Draft outreach package created at `OUTREACH_PACKAGE.md`.
-- The package is intentionally gated on live deployment QA before broad sharing.
+- Outreach package created at `OUTREACH_PACKAGE.md`.
+- The package now uses the verified GitHub Pages URL and resume link.
