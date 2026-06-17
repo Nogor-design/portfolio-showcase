@@ -50,6 +50,7 @@ Search terms included:
 | `media/ma-cross-workbench.png` | Safe for draft; captured from local research UI without raw market-data files or private paths visible |
 | `media/large-candle-studio.png` | Safe for draft; cropped to avoid local data-root label; raw result JSON and generated strategy artifacts withheld |
 | `media/agent-trading-league.png` | Safe for draft; cropped away from local sidebar path and shows replay/agent status only |
+| `media/fate-scenario-weaver.png` | Safe for draft; captured from a temporary seeded SQLite database with fictional sample campaign data only |
 
 ## Week 4 Sixth-Case Gate
 
@@ -62,6 +63,10 @@ The expanded draft adds a client-site case and two local strategy-analysis workb
 ## Agent Trading League Gate
 
 The League case should be framed as software architecture for replay-scored agent operations, not as a trading performance claim. Public material may show roster, replay, validation, and learning-patch workflow surfaces, but must not publish raw market-data paths, SQLite database files, live account state, broker identifiers, or proprietary strategy parameters.
+
+## Fate Scenario Weaver Gate
+
+The Fate case should show the creative-AI workflow and structured scenario model, not the user's personal campaign database or provider credentials. Public material may use the seeded Crown Beneath the Green sample, mock-provider status, and exported-feature descriptions, but must not publish `.env` files, generated private exports, CLI provider settings, uploaded images, or personal campaign notes from the live development database.
 
 ## Before Publishing
 

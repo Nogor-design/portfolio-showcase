@@ -50,6 +50,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | WK5-001 | done | Codex | TraderDan | Add client-site case candidate | `case-trader-dan.html` plus homepage card and screenshot | Local Next.js site inspected and public prelaunch hero captured |
 | WK5-002 | done | Codex | Strategy Analysis | Add MA-Cross and Large Candle workbench cases | Two case pages plus homepage cards and screenshots | Local Flask apps inspected and public-safe workbench visuals captured |
 | WK5-003 | done | Codex | Agent Trading League | Add replay-scored agent case and homepage categories | `case-agent-trading-league.html`, cropped screenshot, categorized homepage | Local app health checked; 12 tests passed; app banner height fixed locally |
+| WK5-004 | done | Codex | Fate Scenario Weaver | Add creative-AI scenario workbench case | `case-fate-scenario-weaver.html` plus seeded screenshot | Lint/build passed; screenshot captured from temporary mock-provider SQLite demo |
 
 ## Completed Discovery
 
@@ -85,6 +86,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-17 | Codex | Completed Week 4 sixth-case package: NinjaAccountManager public page, synthetic dashboard/strategy visuals, PM runbook, and verification audit |
 | 2026-06-17 | Codex | Added Week 5 candidate expansion: TraderDan client site, MA-Cross Workbench, and Large Candle Excursion Studio |
 | 2026-06-17 | Codex | Added Agent Trading League case, recaptured the dashboard with a smaller app banner, and grouped the homepage into professional categories |
+| 2026-06-17 | Codex | Added Fate Scenario Weaver as an AI-assisted creative scenario workbench using a seeded public-safe demo database |
 
 ## Delegation Prompt Pattern
 

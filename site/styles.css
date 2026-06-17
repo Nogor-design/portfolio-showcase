@@ -485,6 +485,10 @@ h3 {
   background: #dfeceb;
 }
 
+.case-visual.story {
+  background: #f0ece3;
+}
+
 .chart-lines,
 .doc-stack,
 .kanban,

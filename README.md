@@ -30,11 +30,12 @@ Do not invent portfolio projects until existing projects have been inspected, re
 
 Current expansion work also includes a Week 5 candidate pass adding the TraderDan
 client site, MA-Cross and Large Candle strategy-analysis workbenches, and the
-Agent Trading League replay/learning-loop dashboard.
+Agent Trading League replay/learning-loop dashboard, plus the Fate Scenario
+Weaver creative-AI scenario workbench.
 
 ## Delivery Target
 
-A usable portfolio site with 10 strong categorized case studies, each containing:
+A usable portfolio site with 11 strong categorized case studies, each containing:
 
 - Problem solved
 - What was built

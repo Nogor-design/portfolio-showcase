@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 categorized ten-case package.
+Status as of 2026-06-17 categorized eleven-case package.
 
 ## Verified So Far
 
@@ -29,7 +29,7 @@ Status as of 2026-06-17 categorized ten-case package.
 ## Immediate Next Work
 
 1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
-2. Do a human copy pass on the four newest cases before broad client-facing sharing.
+2. Do a human copy pass on the five newest cases before broad client-facing sharing.
 3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
 5. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
@@ -137,6 +137,14 @@ Status as of 2026-06-17 categorized ten-case package.
   - Public-safe screenshot captured at `site/media/agent-trading-league.png`.
   - `site/case-agent-trading-league.html` added.
   - Homepage now groups the 10 cases into AI and agent workflows, client and operations platforms, trading research and runtime systems, and simulation systems.
+- Creative-AI expansion:
+  - `D:\scenario-builder\fate-scenario-weaver` inspected as a Next.js/Prisma/SQLite AI scenario workbench.
+  - Source review found staged provider boundaries for mock, Ollama, and CLI-backed generation plus image/PDF export surfaces.
+  - `npm run lint` and `npm run build` passed after a small JSX/import cleanup in the source project.
+  - A temporary public-safe SQLite database was initialized and seeded at `D:\temp\fate-portfolio-demo.db` with `AI_PROVIDER=mock`.
+  - Public-safe screenshot captured at `site/media/fate-scenario-weaver.png`.
+  - `site/case-fate-scenario-weaver.html` added.
+  - Homepage now presents 11 categorized case studies.
 
 ## Current Local Open Command
 
