@@ -245,6 +245,14 @@ h3 {
   line-height: 1.6;
 }
 
+.availability {
+  max-width: 700px;
+  margin-top: 18px;
+  color: #354150;
+  font-weight: 750;
+  line-height: 1.55;
+}
+
 .intro-actions {
   display: flex;
   flex-wrap: wrap;

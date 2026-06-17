@@ -88,7 +88,7 @@ The branch-publish workflow completed successfully for the verified deploy.
 
 ## Current Manual Redeploy Package
 
-Latest static package was refreshed at:
+Latest static package was refreshed after the Week 3 polish pass at:
 
 ```text
 D:\a1-program-manager\site.zip

@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 Week 2 public verification.
+Status as of 2026-06-17 Week 3 public-site polish.
 
 ## Verified So Far
 
@@ -28,10 +28,10 @@ Status as of 2026-06-17 Week 2 public verification.
 
 ## Immediate Next Work
 
-1. Share the verified GitHub Pages URL: `https://nogor-design.github.io/portfolio-showcase/`.
+1. Share the verified GitHub Pages URL after the Week 3 site polish is published: `https://nogor-design.github.io/portfolio-showcase/`.
 2. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
-3. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
-4. Reconsider an Empire walkthrough video only if the first public pass needs motion.
+3. Build a mocked `NinjaAccountManager` demo mode before adding a sixth public page.
+4. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
 5. Reconsider a custom domain as optional future polish.
 
 ## Added Since Previous Status
@@ -100,6 +100,13 @@ Status as of 2026-06-17 Week 2 public verification.
 - Completion audit:
   - `WEEK_TWO_COMPLETION_AUDIT.md` records public GitHub Pages completion evidence.
   - Empire video and custom domain are deferred as optional future polish.
+- Week 3 PM cycle:
+  - Claude CLI, Gemini CLI, Ollama, and Codex subagents were assigned bounded review/discovery tasks.
+  - Homepage copy now reflects Week 3 public polish, clearer availability, and public-friendly proof stats.
+  - All case pages share the Week 3 stylesheet cache-bust token.
+  - Agentic Engine now has a redaction note.
+  - `NinjaAccountManager` was found and confirmed as a future sixth case, but deferred until a mocked demo capture path exists.
+  - `WEEK_THREE_RUNBOOK.md`, `WEEK_THREE_COPY_REVIEW.md`, and `WEEK_THREE_COMPLETION_AUDIT.md` preserve the handoff.
 
 ## Current Local Open Command
 

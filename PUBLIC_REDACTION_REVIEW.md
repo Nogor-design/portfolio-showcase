@@ -1,6 +1,6 @@
 # Public Redaction Review
 
-Date: 2026-06-16  
+Date: 2026-06-17
 Scope: `D:\a1-program-manager\site`
 
 ## Current Public-Site Review
@@ -28,6 +28,8 @@ Search terms included:
 | Public contact links | Acceptable | Email and GitHub are already present in the public resume and are now intentionally linked |
 | Local path scan after Week 2 kickoff | Acceptable | No `D:\a1-program-manager` path remains in the published `site/` files |
 | JAF package proof scan | Acceptable | Generated proof uses fictional Alex Builder/VibeTech package data and no checked private markers |
+| Week 3 copy polish | Acceptable | Public site update adds availability/copy clarity only; no new private project data or raw screenshots |
+| NinjaAccountManager sixth-case review | Deferred | No public-safe mocked capture path exists yet; do not publish live/runtime screenshots |
 
 ## Public-Safe Screenshots
 
@@ -42,6 +44,10 @@ Search terms included:
 | `media/agentic-engine-dashboard.png` | Safe for draft; seeded demo dashboard |
 | `media/ta-foundation-suite.png` | Safe for draft; generated sanitized system visual with no local paths, accounts, broker IDs, or proprietary strategy rules |
 | `media/ta-weekly-report-suite.png` | Safe for draft; sanitized proof board derived from report artifacts, with raw manifest rows withheld |
+
+## Week 3 Sixth-Case Gate
+
+`NinjaAccountManager` remains a good future candidate, but it should not be added to the public site until a mocked capture path exists. Public material must use fake accounts, fake order IDs, fake market/position data, and sanitized strategy/runtime labels. Do not publish runtime logs, bridge state snapshots, live account screenshots, or local tool settings.
 
 ## Before Publishing
 

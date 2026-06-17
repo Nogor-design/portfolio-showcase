@@ -1,6 +1,6 @@
 # Sixth Case Study Decision
 
-Status: decided for Week 2  
+Status: decided and re-checked for Week 3
 Date: 2026-06-17
 
 ## Decision
@@ -8,6 +8,8 @@ Date: 2026-06-17
 Pick `NinjaAccountManager` if the portfolio adds a sixth case study.
 
 Do not add it to the public site until a mocked WebSocket/account/order demo has been captured and redacted.
+
+Week 3 re-check: a read-only worker found the sibling project at `D:\NinjaAccountManager`, but no existing public-safe mocked demo runner or screenshot package. The sixth case remains deferred until that harness exists.
 
 ## Why NinjaAccountManager Wins
 
@@ -32,6 +34,16 @@ Use only mocked data:
 2. Capture the DearPyGUI account monitor with fake balances, positions, and order state.
 3. Add a short case page focused on runtime integration, not live trading.
 4. Keep the case framed as software engineering: event bus, WebSocket protocol, desktop UI, API boundary, and safety gates.
+
+## Week 3 Safe-Demo Gate
+
+Before publishing this case, create a demo mode that:
+
+- starts without a NinjaTrader connection
+- seeds fake account, position, order, market-data, and strategy snapshot state
+- avoids writing live bridge or order logs
+- hides or renames account, instrument, strategy, signal, stop/target, and route controls
+- produces at least two screenshots: Dashboard plus Strategy/runtime console
 
 ## Deferred Candidate
 

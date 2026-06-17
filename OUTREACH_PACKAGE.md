@@ -1,6 +1,6 @@
 # Outreach Package
 
-Status: ready for Week 2 public sharing
+Status: ready for Week 3 public sharing
 Last updated: 2026-06-17
 
 ## Verified Links
@@ -50,6 +50,23 @@ The portfolio I am sharing is built from local projects that were verified durin
 I am especially interested in roles or contract work involving AI workflow systems, operations software, analytics tooling, and internal platforms.
 
 Portfolio: https://nogor-design.github.io/portfolio-showcase/
+
+## Role-Specific Angles
+
+AI software engineer:
+
+- Lead with Job Application Factory and Agentic Idea Validation Engine.
+- Emphasize grounded generation, local-first workflow design, critic validation, and evidence ledgers.
+
+Platform or backend engineer:
+
+- Lead with Empire of Drawdown and TA Foundation.
+- Emphasize deterministic replay, API boundaries, optimizer/report orchestration, and long-running workflow control.
+
+Automation or internal tools:
+
+- Lead with Trades Resource Command Center and Job Application Factory.
+- Emphasize messy-file normalization, daily operating views, private-data boundaries, and repeatable document workflows.
 
 ## Technical Walkthrough Order
 
