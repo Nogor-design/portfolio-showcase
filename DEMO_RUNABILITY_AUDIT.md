@@ -74,6 +74,12 @@ Date: 2026-06-16
     - Mobile checks at 390px passed for homepage, JAF, Empire, and TA Foundation.
     - Browser console warning/error check returned empty.
     - Static asset parser found no missing image files or missing alt text.
+- Week 2 live deployment check:
+  - Live Netlify URL returned HTTP 200 but is stale.
+  - The live response did not contain the Week 2 footer, `jaf-package-proof.png`, or `ta-weekly-report-suite.png`.
+  - The live response still contained mojibake.
+  - Netlify CLI is callable via `npx netlify-cli` but is not logged in.
+  - Fresh manual redeploy ZIP created at `D:\a1-program-manager\site.zip`.
 - Individual case-study page verification:
   - Pages added for Empire of Drawdown, Job Application Factory, Trades Resource, Agentic Engine, and TA Foundation.
   - All six static pages returned expected title/H1 content in headless browser checks.

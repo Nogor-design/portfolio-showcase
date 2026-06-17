@@ -29,7 +29,7 @@ Status as of 2026-06-17 Week 2 proof pass.
 ## Immediate Next Work
 
 1. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
-2. Rebuild/redeploy Netlify from the GitHub-backed repo and verify the live URL is on the latest commit.
+2. Rebuild/redeploy Netlify from the GitHub-backed repo, or manually redeploy `D:\a1-program-manager\site.zip`, and verify the live URL is on the latest commit.
 3. Review `OUTREACH_PACKAGE.md` after live Netlify QA and replace `[insert verified live URL]`.
 4. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
 5. Decide whether to defer custom domain work or connect one after Netlify Git deploy is current.
@@ -88,6 +88,11 @@ Status as of 2026-06-17 Week 2 proof pass.
 - Sixth case decision:
   - `NinjaAccountManager` chosen if a sixth case study is added because it contributes desktop/runtime/WebSocket integration.
   - `Market Data Pipeline` deferred or folded into TA Foundation because it overlaps with the existing data/reporting story.
+- Deployment status:
+  - Latest GitHub commit is pushed, but the current Netlify drag-drop URL still serves the older build.
+  - Netlify CLI is available through `npx` but not logged in.
+  - Fresh manual redeploy package created at `D:\a1-program-manager\site.zip`.
+  - Details recorded in `DEPLOYMENT_STATUS.md`.
 
 ## Current Local Open Command
 

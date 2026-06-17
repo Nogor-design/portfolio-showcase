@@ -5,7 +5,7 @@ Last updated: 2026-06-17
 
 ## Use After Live QA
 
-Do not broad-share until the live Netlify deployment has been rebuilt from the latest GitHub commit and verified.
+Do not broad-share until the live Netlify deployment has been rebuilt from the latest GitHub commit and verified. Current deployment status lives in `DEPLOYMENT_STATUS.md`.
 
 Current repo:
 

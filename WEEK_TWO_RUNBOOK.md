@@ -97,6 +97,8 @@ Progress:
 
 - Local QA passed after JAF proof, TA proof, outreach package, and sixth-case decision updates.
 - Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
+- Live check on 2026-06-17 confirmed the current URL is stale and still serves the older mojibake build.
+- Netlify CLI is available through `npx` but not logged in; fresh manual deploy package is `D:\a1-program-manager\site.zip`.
 
 ## Day 7: Outreach Package
 
