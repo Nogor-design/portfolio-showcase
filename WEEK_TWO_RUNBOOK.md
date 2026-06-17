@@ -50,7 +50,7 @@ Progress:
 - Public visual added at `site/media/jaf-package-proof.png`.
 - TA Foundation report proof board added at `site/media/ta-weekly-report-suite.png`, derived from verified report-suite and weekly coverage summary artifacts.
 - Raw TA report HTML and manifest rows remain private because they include strategy names, parameters, PnL rows, and local paths.
-- Remaining proof decision: optional Empire walkthrough video.
+- Empire walkthrough video deferred until after live deployment is current; existing overview, Battle Replay, and Debrief screenshots are sufficient for the first public pass.
 
 ## Day 4: Sixth Case Study Decision
 
@@ -99,6 +99,7 @@ Progress:
 - Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
 - Live check on 2026-06-17 confirmed the current URL is stale and still serves the older mojibake build.
 - Netlify CLI is available through `npx` but not logged in; fresh manual deploy package is `D:\a1-program-manager\site.zip`.
+- Custom domain decision deferred until Git-connected Netlify deploy is working.
 
 ## Day 7: Outreach Package
 

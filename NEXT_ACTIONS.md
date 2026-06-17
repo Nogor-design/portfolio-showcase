@@ -28,11 +28,11 @@ Status as of 2026-06-17 Week 2 proof pass.
 
 ## Immediate Next Work
 
-1. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
-2. Rebuild/redeploy Netlify from the GitHub-backed repo, or manually redeploy `D:\a1-program-manager\site.zip`, and verify the live URL is on the latest commit.
-3. Review `OUTREACH_PACKAGE.md` after live Netlify QA and replace `[insert verified live URL]`.
-4. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
-5. Decide whether to defer custom domain work or connect one after Netlify Git deploy is current.
+1. Rebuild/redeploy Netlify from the GitHub-backed repo, or manually redeploy `D:\a1-program-manager\site.zip`, and verify the live URL is on the latest commit.
+2. Review `OUTREACH_PACKAGE.md` after live Netlify QA and replace `[insert verified live URL]`.
+3. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
+4. Reconsider an Empire walkthrough video only after the live deploy is current.
+5. Reconsider a custom domain only after Git-connected Netlify deploy is working.
 
 ## Added Since Previous Status
 
@@ -93,6 +93,9 @@ Status as of 2026-06-17 Week 2 proof pass.
   - Netlify CLI is available through `npx` but not logged in.
   - Fresh manual redeploy package created at `D:\a1-program-manager\site.zip`.
   - Details recorded in `DEPLOYMENT_STATUS.md`.
+- Completion audit:
+  - `WEEK_TWO_COMPLETION_AUDIT.md` records local completion evidence and the remaining external live-deploy gate.
+  - Empire video and custom domain are deferred until after the live deploy is current.
 
 ## Current Local Open Command
 
