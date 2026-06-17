@@ -337,6 +337,43 @@ h3 {
   line-height: 1.65;
 }
 
+.case-groups {
+  display: grid;
+  gap: 46px;
+}
+
+.case-category {
+  display: grid;
+  gap: 18px;
+}
+
+.category-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.case-category:first-child .category-heading {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.category-heading h3 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.4vw, 2.1rem);
+  letter-spacing: 0;
+}
+
+.category-heading p:not(.eyebrow) {
+  max-width: 650px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .case-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -442,6 +479,10 @@ h3 {
 
 .case-visual.analytics {
   background: #eee8f6;
+}
+
+.case-visual.league {
+  background: #dfeceb;
 }
 
 .chart-lines,
@@ -685,6 +726,16 @@ footer {
     width: 100%;
     justify-content: space-between;
     overflow-x: auto;
+  }
+
+  .case-groups {
+    gap: 34px;
+  }
+
+  .category-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .case-grid,

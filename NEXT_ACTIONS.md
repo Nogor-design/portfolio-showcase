@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 Week 5 candidate expansion package.
+Status as of 2026-06-17 categorized ten-case package.
 
 ## Verified So Far
 
@@ -29,7 +29,7 @@ Status as of 2026-06-17 Week 5 candidate expansion package.
 ## Immediate Next Work
 
 1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
-2. Do a human copy pass on the three new cases before broad client-facing sharing.
+2. Do a human copy pass on the four newest cases before broad client-facing sharing.
 3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
 5. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
@@ -117,7 +117,7 @@ Status as of 2026-06-17 Week 5 candidate expansion package.
   - Week 4 commit `4366477` was pushed to `master`.
   - Branch-publish workflow run `27712655651` completed successfully.
   - Live GitHub Pages verification passed for the six-card homepage and NinjaAccountManager case page.
-- Week 5 candidate expansion:
+- Week 5 candidate expansion first pass:
   - `D:\trader-dan` inspected as a client-facing Next.js futures education site.
   - `D:\strategy-analysis\ma-cross` inspected as a moving-average research workbench.
   - `D:\strategy-analysis\large-candle` inspected as a large candle event-study workbench.
@@ -126,10 +126,17 @@ Status as of 2026-06-17 Week 5 candidate expansion package.
     - `site/media/ma-cross-workbench.png`
     - `site/media/large-candle-studio.png`
   - Case pages added for TraderDan, MA-Cross Workbench, and Large Candle Excursion Studio.
-  - Homepage now presents nine case studies.
+  - Homepage initially presented nine case studies before the later Agent Trading League/category pass.
   - Expanded commit `086de90` was pushed to `master`.
   - Branch-publish workflow run `27714428021` completed successfully.
   - Live GitHub Pages verification passed for the nine-card homepage and the three new case pages.
+- Categorized ten-case expansion:
+  - `D:\agent-trading-league` inspected as a replay-scored trading-agent operations dashboard.
+  - Local League app health returned 200 and its test suite passed 12 tests.
+  - App banner CSS was fixed locally so the hero image no longer dominates the dashboard.
+  - Public-safe screenshot captured at `site/media/agent-trading-league.png`.
+  - `site/case-agent-trading-league.html` added.
+  - Homepage now groups the 10 cases into AI and agent workflows, client and operations platforms, trading research and runtime systems, and simulation systems.
 
 ## Current Local Open Command
 

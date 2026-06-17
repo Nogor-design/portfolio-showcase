@@ -29,11 +29,12 @@ Do not invent portfolio projects until existing projects have been inspected, re
 | `WEEK_FOUR_RUNBOOK.md` | Sixth-case public-safe demo package and verification |
 
 Current expansion work also includes a Week 5 candidate pass adding the TraderDan
-client site plus MA-Cross and Large Candle strategy-analysis workbench cases.
+client site, MA-Cross and Large Candle strategy-analysis workbenches, and the
+Agent Trading League replay/learning-loop dashboard.
 
 ## Delivery Target
 
-A usable portfolio site with 7-10 strong case studies, each containing:
+A usable portfolio site with 10 strong categorized case studies, each containing:
 
 - Problem solved
 - What was built

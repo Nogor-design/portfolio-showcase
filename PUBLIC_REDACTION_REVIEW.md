@@ -49,6 +49,7 @@ Search terms included:
 | `media/trader-dan-home.png` | Safe for draft; captured from public prelaunch client-site surface without footer contact/admin/member data |
 | `media/ma-cross-workbench.png` | Safe for draft; captured from local research UI without raw market-data files or private paths visible |
 | `media/large-candle-studio.png` | Safe for draft; cropped to avoid local data-root label; raw result JSON and generated strategy artifacts withheld |
+| `media/agent-trading-league.png` | Safe for draft; cropped away from local sidebar path and shows replay/agent status only |
 
 ## Week 4 Sixth-Case Gate
 
@@ -57,6 +58,10 @@ Search terms included:
 ## Week 5 Expansion Gate
 
 The expanded draft adds a client-site case and two local strategy-analysis workbench cases. TraderDan material should show only public prelaunch website surfaces. Strategy-analysis material should show tool UX and methodology, not raw market-data roots, result JSON, strategy templates, private paths, or unpublished trading conclusions.
+
+## Agent Trading League Gate
+
+The League case should be framed as software architecture for replay-scored agent operations, not as a trading performance claim. Public material may show roster, replay, validation, and learning-patch workflow surfaces, but must not publish raw market-data paths, SQLite database files, live account state, broker identifiers, or proprietary strategy parameters.
 
 ## Before Publishing
 
