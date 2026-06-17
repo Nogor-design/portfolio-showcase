@@ -27,6 +27,9 @@ http://127.0.0.1:8787/
 | `case-agentic-engine.html` | Local idea validation ledger case study |
 | `case-ta-foundation.html` | TA Foundation trading intelligence suite overview |
 | `case-ninja-account-manager.html` | Desktop runtime bridge and strategy API integration case study |
+| `case-trader-dan.html` | Client-facing Next.js education platform site case study |
+| `case-ma-cross-workbench.html` | Moving-average research and cross-instrument proof workbench case study |
+| `case-large-candle-studio.html` | Large candle event-study and strategy-construction workbench case study |
 
 ## Included Media
 
@@ -43,6 +46,9 @@ http://127.0.0.1:8787/
 | `media/ta-weekly-report-suite.png` | Sanitized proof board derived from TA Foundation report-suite and weekly coverage artifacts |
 | `media/ninja-account-manager-dashboard.png` | Synthetic NinjaAccountManager dashboard generated from fake account and market-data fixtures |
 | `media/ninja-account-manager-strategy.png` | Synthetic NinjaAccountManager strategy console generated from fake runtime and event fixtures |
+| `media/trader-dan-home.png` | Captured from local prelaunch TraderDan client site with no private admin/member data visible |
+| `media/ma-cross-workbench.png` | Captured from local MA-Cross Workbench after an explorer run |
+| `media/large-candle-studio.png` | Captured from local Large Candle Studio with local data-root label cropped out |
 | `media/portfolio-home-draft.png` | Full-page screenshot of the current homepage |
 | `Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf` | Resume copied into site package so static server can serve it |
 
@@ -58,6 +64,7 @@ Latest verification checked:
 - Job Application Factory proof visual loads on the case-study page.
 - TA Foundation report proof visual loads on the case-study page.
 - NinjaAccountManager synthetic dashboard and strategy visuals load on the case-study page.
+- TraderDan, MA-Cross, and Large Candle Studio visuals load on their case-study pages.
 
 ## Deployment
 
@@ -70,4 +77,5 @@ Supported static deploy paths:
 
 - Optional: replace synthetic NinjaAccountManager visuals with captured app screenshots after a durable in-repo mock runner exists.
 - Optional: add a more polished sanitized TA Foundation report screenshot later.
+- Optional: publish the expanded nine-case build after final client/redaction review.
 - Confirm live deployment target and custom domain.

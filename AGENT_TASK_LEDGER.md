@@ -47,6 +47,8 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | WK4-001 | done | Codex | NinjaAccountManager | Create public-safe sixth-case package | `case-ninja-account-manager.html` plus two synthetic visuals | Source-inspected sibling repo and generated fake dashboard/strategy captures |
 | WK4-002 | done | Codex | Portfolio Site | Wire sixth case into public site | Homepage card, proof card, site README, cache-bust token | Six-case portfolio surface now exists locally |
 | WK4-003 | done | Codex | Program | Audit Week 4 completion | `WEEK_FOUR_RUNBOOK.md` and `WEEK_FOUR_COMPLETION_AUDIT.md` | Verification and redaction gates recorded |
+| WK5-001 | done | Codex | TraderDan | Add client-site case candidate | `case-trader-dan.html` plus homepage card and screenshot | Local Next.js site inspected and public prelaunch hero captured |
+| WK5-002 | done | Codex | Strategy Analysis | Add MA-Cross and Large Candle workbench cases | Two case pages plus homepage cards and screenshots | Local Flask apps inspected and public-safe workbench visuals captured |
 
 ## Completed Discovery
 
@@ -80,6 +82,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-17 | Codex | Published and verified GitHub Pages live portfolio at `https://nogor-design.github.io/portfolio-showcase/` |
 | 2026-06-17 | Codex + Claude + Gemini + Ollama + Socrates + Helmholtz | Completed Week 3 PM cycle: public-site polish, outreach angles, redaction gate, and sixth-case deferral decision |
 | 2026-06-17 | Codex | Completed Week 4 sixth-case package: NinjaAccountManager public page, synthetic dashboard/strategy visuals, PM runbook, and verification audit |
+| 2026-06-17 | Codex | Added Week 5 candidate expansion: TraderDan client site, MA-Cross Workbench, and Large Candle Excursion Studio |
 
 ## Delegation Prompt Pattern
 

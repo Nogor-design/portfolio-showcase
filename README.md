@@ -28,9 +28,12 @@ Do not invent portfolio projects until existing projects have been inspected, re
 | `WEEK_THREE_RUNBOOK.md` | Recruiter-facing polish, worker coordination, and sixth-case gate |
 | `WEEK_FOUR_RUNBOOK.md` | Sixth-case public-safe demo package and verification |
 
+Current expansion work also includes a Week 5 candidate pass adding the TraderDan
+client site plus MA-Cross and Large Candle strategy-analysis workbench cases.
+
 ## Delivery Target
 
-A usable portfolio site with 5-7 strong case studies, each containing:
+A usable portfolio site with 7-10 strong case studies, each containing:
 
 - Problem solved
 - What was built

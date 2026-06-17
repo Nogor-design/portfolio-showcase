@@ -432,6 +432,18 @@ h3 {
   background: #e8f2f0;
 }
 
+.case-visual.client {
+  background: #e5eefb;
+}
+
+.case-visual.research {
+  background: #e8f2f0;
+}
+
+.case-visual.analytics {
+  background: #eee8f6;
+}
+
 .chart-lines,
 .doc-stack,
 .kanban,

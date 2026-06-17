@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 Week 4 sixth-case package.
+Status as of 2026-06-17 Week 5 candidate expansion package.
 
 ## Verified So Far
 
@@ -28,11 +28,12 @@ Status as of 2026-06-17 Week 4 sixth-case package.
 
 ## Immediate Next Work
 
-1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
-2. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
-3. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
-4. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
-5. Reconsider a custom domain as optional future polish.
+1. Re-verify and publish the expanded nine-case portfolio.
+2. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL after the expanded build is live.
+3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
+4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
+5. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
+6. Reconsider a custom domain as optional future polish.
 
 ## Added Since Previous Status
 
@@ -116,6 +117,16 @@ Status as of 2026-06-17 Week 4 sixth-case package.
   - Week 4 commit `4366477` was pushed to `master`.
   - Branch-publish workflow run `27712655651` completed successfully.
   - Live GitHub Pages verification passed for the six-card homepage and NinjaAccountManager case page.
+- Week 5 candidate expansion:
+  - `D:\trader-dan` inspected as a client-facing Next.js futures education site.
+  - `D:\strategy-analysis\ma-cross` inspected as a moving-average research workbench.
+  - `D:\strategy-analysis\large-candle` inspected as a large candle event-study workbench.
+  - Public-safe visuals captured at:
+    - `site/media/trader-dan-home.png`
+    - `site/media/ma-cross-workbench.png`
+    - `site/media/large-candle-studio.png`
+  - Case pages added for TraderDan, MA-Cross Workbench, and Large Candle Excursion Studio.
+  - Homepage now presents nine case studies.
 
 ## Current Local Open Command
 

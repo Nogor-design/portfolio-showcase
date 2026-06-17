@@ -46,10 +46,17 @@ Search terms included:
 | `media/ta-weekly-report-suite.png` | Safe for draft; sanitized proof board derived from report artifacts, with raw manifest rows withheld |
 | `media/ninja-account-manager-dashboard.png` | Safe for draft; generated from fake accounts, synthetic balances, and simulated market data |
 | `media/ninja-account-manager-strategy.png` | Safe for draft; generated from fake runtime state and synthetic strategy events |
+| `media/trader-dan-home.png` | Safe for draft; captured from public prelaunch client-site surface without footer contact/admin/member data |
+| `media/ma-cross-workbench.png` | Safe for draft; captured from local research UI without raw market-data files or private paths visible |
+| `media/large-candle-studio.png` | Safe for draft; cropped to avoid local data-root label; raw result JSON and generated strategy artifacts withheld |
 
 ## Week 4 Sixth-Case Gate
 
 `NinjaAccountManager` is now added as a sixth case using synthetic generated visuals. Public material uses fake accounts, fake order IDs, fake market/position data, and sanitized strategy/runtime labels. Do not publish runtime logs, bridge state snapshots, live account screenshots, or local tool settings unless a durable mocked app runner is built and reviewed.
+
+## Week 5 Expansion Gate
+
+The expanded draft adds a client-site case and two local strategy-analysis workbench cases. TraderDan material should show only public prelaunch website surfaces. Strategy-analysis material should show tool UX and methodology, not raw market-data roots, result JSON, strategy templates, private paths, or unpublished trading conclusions.
 
 ## Before Publishing
 
