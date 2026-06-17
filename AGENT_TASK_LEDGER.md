@@ -44,6 +44,9 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | WK3-004 | done | Ollama phi4:14b | Redaction | Summarize sensitive information classes to avoid | Local-only redaction categories | Customer data, account data, trading IP, secrets, and local paths |
 | WK3-005 | done | Socrates | NinjaAccountManager | Read-only sixth-case readiness check | `SIXTH_CASE_DECISION.md` update | Found sibling project, but no public-safe mocked capture path yet |
 | WK3-006 | done | Helmholtz | Portfolio Site | Static copy polish pass | `WEEK_THREE_COPY_REVIEW.md` | Added focused copy-review notes and tiny homepage copy edits |
+| WK4-001 | done | Codex | NinjaAccountManager | Create public-safe sixth-case package | `case-ninja-account-manager.html` plus two synthetic visuals | Source-inspected sibling repo and generated fake dashboard/strategy captures |
+| WK4-002 | done | Codex | Portfolio Site | Wire sixth case into public site | Homepage card, proof card, site README, cache-bust token | Six-case portfolio surface now exists locally |
+| WK4-003 | done | Codex | Program | Audit Week 4 completion | `WEEK_FOUR_RUNBOOK.md` and `WEEK_FOUR_COMPLETION_AUDIT.md` | Verification and redaction gates recorded |
 
 ## Completed Discovery
 
@@ -76,6 +79,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-17 | Codex | Added Week 2 completion audit and deferred Empire video/custom domain until live deploy is current |
 | 2026-06-17 | Codex | Published and verified GitHub Pages live portfolio at `https://nogor-design.github.io/portfolio-showcase/` |
 | 2026-06-17 | Codex + Claude + Gemini + Ollama + Socrates + Helmholtz | Completed Week 3 PM cycle: public-site polish, outreach angles, redaction gate, and sixth-case deferral decision |
+| 2026-06-17 | Codex | Completed Week 4 sixth-case package: NinjaAccountManager public page, synthetic dashboard/strategy visuals, PM runbook, and verification audit |
 
 ## Delegation Prompt Pattern
 

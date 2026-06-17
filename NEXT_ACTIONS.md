@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 Week 3 public-site polish.
+Status as of 2026-06-17 Week 4 sixth-case package.
 
 ## Verified So Far
 
@@ -28,9 +28,9 @@ Status as of 2026-06-17 Week 3 public-site polish.
 
 ## Immediate Next Work
 
-1. Share the verified GitHub Pages URL after the Week 3 site polish is published: `https://nogor-design.github.io/portfolio-showcase/`.
+1. Re-verify and publish the Week 4 six-case site to GitHub Pages.
 2. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
-3. Build a mocked `NinjaAccountManager` demo mode before adding a sixth public page.
+3. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
 4. Reconsider an Empire walkthrough video only if reviewer conversations show that motion would materially help.
 5. Reconsider a custom domain as optional future polish.
 
@@ -105,8 +105,14 @@ Status as of 2026-06-17 Week 3 public-site polish.
   - Homepage copy now reflects Week 3 public polish, clearer availability, and public-friendly proof stats.
   - All case pages share the Week 3 stylesheet cache-bust token.
   - Agentic Engine now has a redaction note.
-  - `NinjaAccountManager` was found and confirmed as a future sixth case, but deferred until a mocked demo capture path exists.
+  - `NinjaAccountManager` was found and, at that time, deferred until a mocked demo capture path existed.
   - `WEEK_THREE_RUNBOOK.md`, `WEEK_THREE_COPY_REVIEW.md`, and `WEEK_THREE_COMPLETION_AUDIT.md` preserve the handoff.
+- Week 4 sixth-case package:
+  - `tools/generate_ninja_account_manager_mockups.py` generates two public-safe synthetic visuals from fake fixtures.
+  - `site/media/ninja-account-manager-dashboard.png` and `site/media/ninja-account-manager-strategy.png` were generated.
+  - `site/case-ninja-account-manager.html` was added.
+  - Homepage now presents six case studies.
+  - `WEEK_FOUR_RUNBOOK.md` and `WEEK_FOUR_COMPLETION_AUDIT.md` preserve the handoff.
 
 ## Current Local Open Command
 

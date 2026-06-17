@@ -25,6 +25,8 @@ Do not invent portfolio projects until existing projects have been inspected, re
 | `REDACTION_POLICY.md` | What must be removed or sanitized before anything becomes public |
 | `WEEK_ONE_RUNBOOK.md` | Day-by-day execution plan |
 | `WEEK_TWO_RUNBOOK.md` | Public deployment, sharing, polish, and outreach plan |
+| `WEEK_THREE_RUNBOOK.md` | Recruiter-facing polish, worker coordination, and sixth-case gate |
+| `WEEK_FOUR_RUNBOOK.md` | Sixth-case public-safe demo package and verification |
 
 ## Delivery Target
 

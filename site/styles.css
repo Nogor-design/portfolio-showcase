@@ -212,6 +212,12 @@ a {
 
 h1,
 h2,
+h3 {
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
 h3,
 p {
   margin-top: 0;
@@ -422,6 +428,10 @@ h3 {
   background: #edf0f3;
 }
 
+.case-visual.runtime {
+  background: #e8f2f0;
+}
+
 .chart-lines,
 .doc-stack,
 .kanban,
@@ -571,7 +581,12 @@ h3 {
   background: #eef3f7;
 }
 
-.proof-grid,
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

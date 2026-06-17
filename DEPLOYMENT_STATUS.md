@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: GitHub Pages live and verified; old Netlify deploy is stale
+Status: Week 4 package verified locally; GitHub Pages live version is still the prior published build until pushed
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -94,7 +94,7 @@ The branch-publish workflow completed successfully for the verified deploy.
 
 ## Current Manual Redeploy Package
 
-Latest static package was refreshed after the Week 3 polish pass at:
+Latest static package was refreshed after the Week 4 six-case local verification pass at:
 
 ```text
 D:\a1-program-manager\site.zip
@@ -107,7 +107,10 @@ Manual Netlify path:
 1. Open Netlify.
 2. Drag `D:\a1-program-manager\site.zip` or the `D:\a1-program-manager\site` folder into a manual deploy.
 3. Re-check the live URL for:
-   - `Public portfolio build / Week 2`
+   - `Public portfolio build / Week 4`
+   - `case-ninja-account-manager.html`
+   - `ninja-account-manager-dashboard.png`
+   - `ninja-account-manager-strategy.png`
    - `jaf-package-proof.png`
    - `ta-weekly-report-suite.png`
    - no mojibake marker

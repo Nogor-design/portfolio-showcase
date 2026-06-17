@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NinjaAccountManager | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260617w4" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">Python / DearPyGUI / WebSockets / Runtime bridge</p>
+          <h1>NinjaAccountManager</h1>
+          <p class="lead">
+            A desktop runtime monitor that receives NinjaTrader account, position, order,
+            market-data, and strategy events over a local WebSocket bridge, then exposes a
+            guarded localhost strategy API for automation.
+          </p>
+        </div>
+        <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager dashboard with mocked account, position, order, and market data" />
+      </section>
+
+      <section class="case-media-strip" aria-label="NinjaAccountManager mock demo captures">
+        <figure>
+          <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager dashboard capture using fake accounts and simulated market data" />
+          <figcaption>
+            Mocked dashboard capture with fake account names, synthetic balances, generated market data, and no live bridge logs.
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="media/ninja-account-manager-strategy.png" alt="Synthetic NinjaAccountManager strategy console with simulated runtime state and safety gates" />
+          <figcaption>
+            Mocked strategy-console capture showing the API boundary, runtime state, heartbeat status, and operator controls without live routing details.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            Trading automation needs a careful runtime boundary: live platform state, local operator
+            visibility, strategy commands, safety checks, and audit events all need to meet without
+            exposing private accounts or letting automation bypass human control.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            The app runs a Python WebSocket server for NinjaTrader-originated data, keeps a
+            thread-safe AppState store for the DearPyGUI interface, and publishes strategy events
+            through a localhost JSON-lines API. The GUI separates dashboard monitoring from the
+            strategy operations console.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>Desktop/runtime integration across NinjaScript, Python, WebSockets, and a GUI render loop.</li>
+            <li>Explicit boundaries between data transport, state storage, event bus, strategy API, and UI panels.</li>
+            <li>Operator-centered safety gates for intake, heartbeat, recovery, flatten, cancel, and live confirmation.</li>
+            <li>Testing discipline around direct strategy API commands and fake NinjaTrader clients.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Source Evidence</h2>
+          <p>
+            Source inspection found the WebSocket entry point, AppState model, dashboard panel,
+            strategy console, direct strategy API tests, and live-smoke tooling in the sibling
+            `NinjaAccountManager` repository. Public visuals are generated from synthetic fixture
+            data modeled on those source-level fields.
+          </p>
+        </article>
+        <article>
+          <h2>Redaction Note</h2>
+          <p>
+            The public case uses generated demo captures only. Real account names, order IDs,
+            broker state, strategy templates, signals, logs, live execution details, and local
+            paths are withheld.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>NinjaAccountManager</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>

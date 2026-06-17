@@ -8,7 +8,7 @@
       name="description"
       content="Portfolio for Eric Irwin: AI systems, local-first automation, analytics dashboards, trading simulation, and business workflow software."
     />
-    <link rel="stylesheet" href="styles.css?v=20260617w3" />
+    <link rel="stylesheet" href="styles.css?v=20260617w4" />
   </head>
   <body>
     <header class="topbar">
@@ -55,7 +55,7 @@
           </div>
           <div class="proof-row">
             <span>Runnable demos verified</span>
-            <strong>5 case studies, 4 with runnable local demos</strong>
+            <strong>6 case studies, including one synthetic runtime-integration demo</strong>
           </div>
           <div class="proof-row">
             <span>Automated tests observed</span>
@@ -184,6 +184,27 @@
               <a class="case-link" href="case-ta-foundation.html">Open case study</a>
             </div>
           </article>
+
+          <article class="case-card wide">
+            <div class="case-visual runtime has-image">
+              <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager desktop dashboard with fake account, order, and market data" />
+              <span>Desktop Runtime Bridge</span>
+            </div>
+            <div class="case-body">
+              <p class="tag">Python / DearPyGUI / WebSockets / Strategy API</p>
+              <h3>NinjaAccountManager</h3>
+              <p>
+                A desktop runtime monitor that connects NinjaTrader-originated account, order,
+                position, market-data, and strategy events to a guarded local operator console.
+              </p>
+              <ul>
+                <li>Source inspection found WebSocket, AppState, event bus, dashboard, strategy console, and API test surfaces.</li>
+                <li>Week 4 public assets use generated fixtures only: fake accounts, fake orders, and simulated bridge events.</li>
+                <li>Adds a desktop/runtime integration signal without exposing live trading state or strategy controls.</li>
+              </ul>
+              <a class="case-link" href="case-ninja-account-manager.html">Open case study</a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -208,6 +229,10 @@
           <article>
             <strong>Job Application Factory</strong>
             <span>Key dependencies import; mock-demo launch verified with temporary data.</span>
+          </article>
+          <article>
+            <strong>NinjaAccountManager</strong>
+            <span>Source-inspected runtime bridge; public visuals generated from synthetic fixtures.</span>
           </article>
         </div>
       </section>
@@ -256,7 +281,7 @@
 
     <footer>
       <span>Eric Irwin Portfolio</span>
-      <span>Public portfolio build / Week 3</span>
+      <span>Public portfolio build / Week 4</span>
     </footer>
   </body>
 </html>
