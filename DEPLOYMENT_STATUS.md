@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Week 5 nine-case package is live and verified on GitHub Pages
+Status: Categorized ten-case package is live and verified on GitHub Pages
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -35,15 +35,18 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after Week 5 publish:
+Live check result after categorized ten-case publish:
 
 - HTTP status: 200
-- Week 5 footer present: yes
-- Homepage case-card count: 9
+- Categorized homepage rendered: yes
+- Homepage case-card count: 10
+- Homepage category count: 4
+- `case-agent-trading-league.html` linked from homepage: yes
 - `case-ninja-account-manager.html` linked from homepage: yes
 - `case-trader-dan.html` linked from homepage: yes
 - `case-ma-cross-workbench.html` linked from homepage: yes
 - `case-large-candle-studio.html` linked from homepage: yes
+- Agent Trading League case page returns the expected title/H1 and image loads: yes
 - NinjaAccountManager case page returns the expected title/H1: yes
 - NinjaAccountManager page images loaded: yes, 3 images
 - TraderDan case page returns the expected title/H1 and images load: yes
@@ -57,8 +60,9 @@ Live check result after Week 5 publish:
 
 Browser QA result:
 
-- Local desktop and mobile render passed across all 10 site pages before publish.
-- Live homepage, TraderDan, MA-Cross, and Large Candle pages rendered after publish.
+- Local desktop and mobile render passed across all 11 site pages before publish.
+- Live homepage and Agent Trading League case page rendered after publish.
+- Live mobile homepage rendered after publish.
 - No missing images.
 - No missing alt text.
 - No horizontal overflow.
@@ -86,10 +90,10 @@ A GitHub Pages branch-publish workflow now exists at:
 
 It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
 
-The `gh-pages` branch is updated by the branch-publish workflow. Week 5 source commit:
+The `gh-pages` branch is updated by the branch-publish workflow. Categorized ten-case source commit:
 
 ```text
-086de90 Add client and strategy analysis portfolio cases
+3a6be96 Add agent league case and category layout
 ```
 
 Verified Pages URL:
@@ -98,15 +102,15 @@ Verified Pages URL:
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-The branch-publish workflow completed successfully for the verified Week 5 deploy:
+The branch-publish workflow completed successfully for the verified categorized deploy:
 
 ```text
-https://github.com/Nogor-design/portfolio-showcase/actions/runs/27714428021
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27715324479
 ```
 
 ## Current Manual Redeploy Package
 
-Latest static package was refreshed after the Week 5 nine-case local verification pass at:
+Latest static package was refreshed after the categorized ten-case local verification pass at:
 
 ```text
 D:\a1-program-manager\site.zip
@@ -119,11 +123,13 @@ Manual Netlify path:
 1. Open Netlify.
 2. Drag `D:\a1-program-manager\site.zip` or the `D:\a1-program-manager\site` folder into a manual deploy.
 3. Re-check the live URL for:
-   - `Public portfolio build / Week 5 candidate expansion`
+   - `Public portfolio build / Week 5 categorized expansion`
+   - `case-agent-trading-league.html`
    - `case-ninja-account-manager.html`
    - `case-trader-dan.html`
    - `case-ma-cross-workbench.html`
    - `case-large-candle-studio.html`
+   - `agent-trading-league.png`
    - `ninja-account-manager-dashboard.png`
    - `ninja-account-manager-strategy.png`
    - `trader-dan-home.png`
