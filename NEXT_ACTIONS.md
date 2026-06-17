@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-16 Week 2 kickoff.
+Status as of 2026-06-17 Week 2 proof pass.
 
 ## Verified So Far
 
@@ -24,14 +24,15 @@ Status as of 2026-06-16 Week 2 kickoff.
 - Job Application Factory:
   - Key dependencies import successfully.
   - Temporary `JAF_DATA_DIR` used; Mock Demo Mode verified; screenshot captured at `site/media/job-application-factory.png`.
+  - Demo package generation verified with fictional Alex Builder/VibeTech data and screenshot captured at `site/media/jaf-package-proof.png`.
 
 ## Immediate Next Work
 
-1. Confirm generated JAF packages use fictional data before showing package screenshots.
-2. Generate or locate true sanitized `ta_foundation` report artifacts beyond the current system visual.
-3. Decide whether Market Data Pipeline or NinjaAccountManager becomes the sixth public case study.
-4. Add final contact links and deployment target.
-5. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
+1. Generate or locate true sanitized `ta_foundation` report artifacts beyond the current system visual.
+2. Decide whether Market Data Pipeline or NinjaAccountManager becomes the sixth public case study.
+3. Consider a short Empire walkthrough video if motion would strengthen the flagship case.
+4. Rebuild/redeploy Netlify from the GitHub-backed repo and verify the live URL is on the latest commit.
+5. Draft the recruiter share message and technical walkthrough script.
 
 ## Added Since Previous Status
 
@@ -72,6 +73,13 @@ Status as of 2026-06-16 Week 2 kickoff.
   - Homepage contact buttons added for email, GitHub, and resume.
   - Local desktop/mobile verification passed after contact/deployment updates.
   - Live drag-drop Netlify URL still serves the older separator issue until redeployed or connected to GitHub.
+- Week 2 proof pass:
+  - JAF mock package generation verified from the app's demo generator.
+  - Generated package scan found only fictional/demo identity markers and no personal/local/project-sensitive markers.
+  - JAF proof visual added at `site/media/jaf-package-proof.png` and wired into the public case study.
+  - Local browser verification passed for homepage and JAF case page at desktop width.
+  - Mobile checks at 390px passed for homepage, JAF, Empire, and TA Foundation.
+  - Static asset parser found no missing image files or missing alt text.
 
 ## Current Local Open Command
 

@@ -35,6 +35,7 @@ http://127.0.0.1:8787/
 | `media/empire-battle-replay.png` | Captured from seeded demo Battle Replay |
 | `media/empire-debrief.png` | Captured from seeded demo Debrief Chamber |
 | `media/job-application-factory.png` | Captured with temporary `JAF_DATA_DIR` and Mock Demo Mode active |
+| `media/jaf-package-proof.png` | Generated from the fictional Alex Builder/VibeTech demo package |
 | `media/trades-resource-dashboard.png` | Captured from sanitized runtime copy with demo data and no admin pages visible |
 | `media/agentic-engine-dashboard.png` | Captured from seeded local dashboard |
 | `media/ta-foundation-suite.png` | Generated sanitized TA Foundation architecture/coverage visual |
@@ -48,8 +49,9 @@ Latest verification checked:
 - Homepage returns HTTP 200.
 - Resume PDF returns HTTP 200.
 - Homepage and case-study pages render without horizontal overflow at desktop width.
-- Homepage, Empire case study, and TA Foundation case study render without horizontal overflow at 390px mobile width.
+- Homepage, Empire case study, Job Application Factory case study, and TA Foundation case study render without horizontal overflow at 390px mobile width.
 - Images load with nonzero dimensions and alt text.
+- Job Application Factory proof visual loads on the case-study page.
 
 ## Remaining Polish
 

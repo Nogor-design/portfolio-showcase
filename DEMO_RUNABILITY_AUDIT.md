@@ -60,6 +60,20 @@ Date: 2026-06-16
   - Mobile checks at 390px passed for homepage, Empire, and TA Foundation.
   - Browser console warning/error check returned empty.
   - Full-page screenshot refresh timed out in the browser tool; layout/media checks still passed.
+- Week 2 JAF package proof verification:
+  - The app's demo generator produced a package under an ignored temporary `JAF_DATA_DIR`.
+  - Generated package identity markers were fictional/demo only: Alex Builder, VibeTech, example.com contact data, and Demo Mode labels.
+  - Scan found no personal identity markers, local paths, known private project names, or secret-like values from the checked terms.
+  - Public proof visual saved at `site/media/jaf-package-proof.png` and added to the Job Application Factory case page.
+  - Local browser verification after wiring:
+    - Homepage image count: 5.
+    - JAF case page image count: 2.
+    - JAF proof image loaded at desktop width with nonzero dimensions.
+    - No missing images or alt text on checked pages.
+    - No desktop horizontal overflow.
+    - Mobile checks at 390px passed for homepage, JAF, Empire, and TA Foundation.
+    - Browser console warning/error check returned empty.
+    - Static asset parser found no missing image files or missing alt text.
 - Individual case-study page verification:
   - Pages added for Empire of Drawdown, Job Application Factory, Trades Resource, Agentic Engine, and TA Foundation.
   - All six static pages returned expected title/H1 content in headless browser checks.
@@ -135,7 +149,7 @@ The first four lead case studies all have plausible local demo paths. The next s
     - `personal profile=False`
   - Screenshot saved at `site/media/job-application-factory.png`.
 - Audit needed:
-  - Confirm generated packages use fictional data.
+  - Decide whether to keep the proof screenshot as the final JAF artifact or add a short recorded flow later.
 
 ### Trades Resource Dashboard
 

@@ -27,6 +27,7 @@ Search terms included:
 | Final scan after TA visual and Empire media | Acceptable | Hits are intentional redaction-note language plus local-open instructions |
 | Public contact links | Acceptable | Email and GitHub are already present in the public resume and are now intentionally linked |
 | Local path scan after Week 2 kickoff | Acceptable | No `D:\a1-program-manager` path remains in the published `site/` files |
+| JAF package proof scan | Acceptable | Generated proof uses fictional Alex Builder/VibeTech package data and no checked private markers |
 
 ## Public-Safe Screenshots
 
@@ -36,6 +37,7 @@ Search terms included:
 | `media/empire-battle-replay.png` | Safe for draft; seeded demo replay surface with simulator account label only |
 | `media/empire-debrief.png` | Safe for draft; seeded demo debrief surface with simulator account label only |
 | `media/job-application-factory.png` | Safe for draft; Mock Demo Mode active with fictional profile |
+| `media/jaf-package-proof.png` | Safe for draft; generated from fictional Alex Builder/VibeTech demo package |
 | `media/trades-resource-dashboard.png` | Safe for draft after crop; generated demo data only |
 | `media/agentic-engine-dashboard.png` | Safe for draft; seeded demo dashboard |
 | `media/ta-foundation-suite.png` | Safe for draft; generated sanitized system visual with no local paths, accounts, broker IDs, or proprietary strategy rules |

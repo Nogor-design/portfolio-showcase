@@ -44,6 +44,12 @@ Goals:
 - Add one more TA Foundation artifact only if it can be sanitized safely.
 - Decide whether a short Empire walkthrough video is worth the time.
 
+Progress:
+
+- JAF package proof completed from the app's demo generator using fictional Alex Builder/VibeTech data.
+- Public visual added at `site/media/jaf-package-proof.png`.
+- Remaining proof decision: TA Foundation sanitized report artifact vs. keeping the current system visual, plus optional Empire walkthrough video.
+
 ## Day 4: Sixth Case Study Decision
 
 Goals:
@@ -80,4 +86,3 @@ Goals:
 - Produce a short share message for recruiters/hiring managers.
 - Produce a longer technical walkthrough script.
 - Produce an interview demo order.
-
