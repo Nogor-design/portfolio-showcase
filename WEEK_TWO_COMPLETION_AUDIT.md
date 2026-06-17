@@ -7,7 +7,7 @@ Status: complete locally; public live deployment still stale
 
 | Requirement | Evidence | Status |
 |---|---|---|
-| Deployment hardening | `netlify.toml`, clean GitHub history, latest commits pushed to `master` | Complete locally |
+| Deployment hardening | `netlify.toml`, GitHub Pages workflow, clean GitHub history, latest commits pushed to `master` | Complete locally |
 | Public contact and sharing | Homepage email, GitHub, and resume links verified locally | Complete locally |
 | JAF generated package proof | `site/media/jaf-package-proof.png`, JAF case page media strip, redaction/QA notes | Complete |
 | TA Foundation stronger proof asset | `site/media/ta-weekly-report-suite.png`, TA case page media strip, raw manifest withheld | Complete |
@@ -35,5 +35,5 @@ After deploy, verify:
 ## Deferred Decisions
 
 - Empire walkthrough video: deferred until after the live deploy is current. Existing overview, battle replay, and debrief screenshots are strong enough for the first public pass.
-- Custom domain: deferred until after Git-connected Netlify deploy is working.
+- Custom domain: deferred until after Git-connected Netlify or GitHub Pages deploy is working.
 - Sixth public page: deferred until a mocked NinjaAccountManager WebSocket/account demo exists.

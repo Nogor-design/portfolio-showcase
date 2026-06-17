@@ -99,7 +99,8 @@ Progress:
 - Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
 - Live check on 2026-06-17 confirmed the current URL is stale and still serves the older mojibake build.
 - Netlify CLI is available through `npx` but not logged in; fresh manual deploy package is `D:\a1-program-manager\site.zip`.
-- Custom domain decision deferred until Git-connected Netlify deploy is working.
+- GitHub Pages workflow added as a second durable deployment path for the `site/` directory.
+- Custom domain decision deferred until Git-connected Netlify or GitHub Pages deploy is working.
 
 ## Day 7: Outreach Package
 
@@ -112,4 +113,4 @@ Goals:
 Progress:
 
 - Draft outreach package created at `OUTREACH_PACKAGE.md`.
-- The package is intentionally gated on live Netlify QA before broad sharing.
+- The package is intentionally gated on live deployment QA before broad sharing.

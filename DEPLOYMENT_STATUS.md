@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: live Netlify deploy is stale  
+Status: live Netlify deploy is stale; GitHub Pages workflow added
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -11,11 +11,7 @@ Repository:
 https://github.com/Nogor-design/portfolio-showcase
 ```
 
-Latest pushed commit at time of this note:
-
-```text
-454af46 Add TA report proof and outreach package
-```
+See `git log -1 --oneline` for the current pushed commit.
 
 ## Current Live Netlify URL
 
@@ -44,6 +40,24 @@ Not logged in. Please log in to see project status.
 No `NETLIFY_*` auth token is present in the environment.
 
 GitHub CLI is not installed in this shell, so GitHub Pages cannot be enabled from here through `gh`.
+
+## GitHub Pages Fallback
+
+A GitHub Pages workflow now exists at:
+
+```text
+.github/workflows/pages.yml
+```
+
+It publishes the `site/` directory on pushes to `master` and through manual `workflow_dispatch`.
+
+Expected Pages URL after GitHub Pages is enabled for the repository:
+
+```text
+https://nogor-design.github.io/portfolio-showcase/
+```
+
+If the first workflow run fails with a Pages configuration error, enable Pages in the repository settings and select GitHub Actions as the source.
 
 ## Current Manual Redeploy Package
 

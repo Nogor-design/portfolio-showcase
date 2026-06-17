@@ -55,8 +55,15 @@ Latest verification checked:
 - Job Application Factory proof visual loads on the case-study page.
 - TA Foundation report proof visual loads on the case-study page.
 
+## Deployment
+
+Supported static deploy paths:
+
+- Netlify: publish directory `site`, configured from the repo root by `netlify.toml`.
+- GitHub Pages: workflow at `../.github/workflows/pages.yml` publishes this directory.
+
 ## Remaining Polish
 
 - Optional: add a more polished sanitized TA Foundation report screenshot later.
 - Optional: add NinjaAccountManager as the sixth case after a mocked WebSocket/account demo exists.
-- Confirm deployment target and custom domain.
+- Confirm live deployment target and custom domain.
