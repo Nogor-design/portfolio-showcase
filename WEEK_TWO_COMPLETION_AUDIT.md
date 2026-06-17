@@ -7,7 +7,7 @@ Status: complete locally; public live deployment still stale
 
 | Requirement | Evidence | Status |
 |---|---|---|
-| Deployment hardening | `netlify.toml`, GitHub Pages workflow, clean GitHub history, latest commits pushed to `master` | Complete locally |
+| Deployment hardening | `netlify.toml`, GitHub Pages branch workflow, clean GitHub history, latest commits pushed to `master`, `gh-pages` branch published | Complete locally |
 | Public contact and sharing | Homepage email, GitHub, and resume links verified locally | Complete locally |
 | JAF generated package proof | `site/media/jaf-package-proof.png`, JAF case page media strip, redaction/QA notes | Complete |
 | TA Foundation stronger proof asset | `site/media/ta-weekly-report-suite.png`, TA case page media strip, raw manifest withheld | Complete |

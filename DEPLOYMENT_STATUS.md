@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: live Netlify deploy is stale; GitHub Pages workflow added
+Status: live Netlify deploy is stale; GitHub Pages branch workflow added
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -43,13 +43,15 @@ GitHub CLI is not installed in this shell, so GitHub Pages cannot be enabled fro
 
 ## GitHub Pages Fallback
 
-A GitHub Pages workflow now exists at:
+A GitHub Pages branch-publish workflow now exists at:
 
 ```text
 .github/workflows/pages.yml
 ```
 
-It publishes the `site/` directory on pushes to `master` and through manual `workflow_dispatch`.
+It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
+
+The `gh-pages` branch has also been pushed manually once from the current site package.
 
 Expected Pages URL after GitHub Pages is enabled for the repository:
 
@@ -57,7 +59,13 @@ Expected Pages URL after GitHub Pages is enabled for the repository:
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-If the first workflow run fails with a Pages configuration error, enable Pages in the repository settings and select GitHub Actions as the source.
+If the URL returns 404, enable Pages in the repository settings and select:
+
+```text
+Source: Deploy from a branch
+Branch: gh-pages
+Folder: / (root)
+```
 
 ## Current Manual Redeploy Package
 

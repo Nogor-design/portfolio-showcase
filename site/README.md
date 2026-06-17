@@ -60,7 +60,7 @@ Latest verification checked:
 Supported static deploy paths:
 
 - Netlify: publish directory `site`, configured from the repo root by `netlify.toml`.
-- GitHub Pages: workflow at `../.github/workflows/pages.yml` publishes this directory.
+- GitHub Pages: workflow at `../.github/workflows/pages.yml` publishes this directory to the `gh-pages` branch.
 
 ## Remaining Polish
 

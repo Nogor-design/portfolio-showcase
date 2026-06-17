@@ -99,7 +99,8 @@ Progress:
 - Remaining public QA blocker: the live Netlify URL still needs a Git-connected rebuild or manual redeploy from the latest GitHub state.
 - Live check on 2026-06-17 confirmed the current URL is stale and still serves the older mojibake build.
 - Netlify CLI is available through `npx` but not logged in; fresh manual deploy package is `D:\a1-program-manager\site.zip`.
-- GitHub Pages workflow added as a second durable deployment path for the `site/` directory.
+- GitHub Pages branch workflow added as a second durable deployment path for the `site/` directory.
+- `gh-pages` branch has been published once from the current site package; repository settings may still need Pages enabled from branch root.
 - Custom domain decision deferred until Git-connected Netlify or GitHub Pages deploy is working.
 
 ## Day 7: Outreach Package

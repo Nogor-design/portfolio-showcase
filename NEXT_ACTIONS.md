@@ -28,7 +28,7 @@ Status as of 2026-06-17 Week 2 proof pass.
 
 ## Immediate Next Work
 
-1. Enable/verify GitHub Pages workflow or rebuild/redeploy Netlify from the GitHub-backed repo, then verify the live URL is on the latest commit.
+1. Enable/verify GitHub Pages from the `gh-pages` branch or rebuild/redeploy Netlify from the GitHub-backed repo, then verify the live URL is on the latest commit.
 2. Review `OUTREACH_PACKAGE.md` after live QA and replace `[insert verified live URL]`.
 3. If adding a sixth public page, capture a mocked `NinjaAccountManager` demo first.
 4. Reconsider an Empire walkthrough video only after the live deploy is current.
@@ -93,7 +93,8 @@ Status as of 2026-06-17 Week 2 proof pass.
   - Netlify CLI is available through `npx` but not logged in.
   - Fresh manual redeploy package created at `D:\a1-program-manager\site.zip`.
   - Details recorded in `DEPLOYMENT_STATUS.md`.
-  - GitHub Pages workflow added to publish `site/` from `master`.
+  - GitHub Pages branch workflow added to publish `site/` from `master` into `gh-pages`.
+  - `gh-pages` branch was pushed manually once from the current site package.
 - Completion audit:
   - `WEEK_TWO_COMPLETION_AUDIT.md` records local completion evidence and the remaining external live-deploy gate.
   - Empire video and custom domain are deferred until after the live deploy is current.
