@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Categorized ten-case package is live and verified on GitHub Pages
+Status: Categorized eleven-case package is live and verified on GitHub Pages
 Last checked: 2026-06-17
 
 ## Current GitHub State
@@ -35,17 +35,19 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after categorized ten-case publish:
+Live check result after categorized eleven-case publish:
 
 - HTTP status: 200
 - Categorized homepage rendered: yes
-- Homepage case-card count: 10
+- Homepage case-card count: 11
 - Homepage category count: 4
+- `case-fate-scenario-weaver.html` linked from homepage: yes
 - `case-agent-trading-league.html` linked from homepage: yes
 - `case-ninja-account-manager.html` linked from homepage: yes
 - `case-trader-dan.html` linked from homepage: yes
 - `case-ma-cross-workbench.html` linked from homepage: yes
 - `case-large-candle-studio.html` linked from homepage: yes
+- Fate Scenario Weaver case page returns the expected title/H1 and image loads: yes
 - Agent Trading League case page returns the expected title/H1 and image loads: yes
 - NinjaAccountManager case page returns the expected title/H1: yes
 - NinjaAccountManager page images loaded: yes, 3 images
@@ -60,8 +62,8 @@ Live check result after categorized ten-case publish:
 
 Browser QA result:
 
-- Local desktop and mobile render passed across all 11 site pages before publish.
-- Live homepage and Agent Trading League case page rendered after publish.
+- Local desktop and mobile render passed across all 12 site pages before publish.
+- Live homepage and Fate Scenario Weaver case page rendered after publish.
 - Live mobile homepage rendered after publish.
 - No missing images.
 - No missing alt text.
@@ -90,10 +92,10 @@ A GitHub Pages branch-publish workflow now exists at:
 
 It publishes the `site/` directory to the `gh-pages` branch on pushes to `master` and through manual `workflow_dispatch`.
 
-The `gh-pages` branch is updated by the branch-publish workflow. Categorized ten-case source commit:
+The `gh-pages` branch is updated by the branch-publish workflow. Categorized eleven-case source commit:
 
 ```text
-3a6be96 Add agent league case and category layout
+4c4adec Add Fate Scenario Weaver portfolio case
 ```
 
 Verified Pages URL:
@@ -102,15 +104,15 @@ Verified Pages URL:
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-The branch-publish workflow completed successfully for the verified categorized deploy:
+The branch-publish workflow completed successfully for the verified eleven-case deploy:
 
 ```text
-https://github.com/Nogor-design/portfolio-showcase/actions/runs/27715324479
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27716028824
 ```
 
 ## Current Manual Redeploy Package
 
-Latest static package was refreshed after the categorized ten-case local verification pass at:
+Latest static package was refreshed after the categorized eleven-case local verification pass at:
 
 ```text
 D:\a1-program-manager\site.zip
@@ -123,12 +125,14 @@ Manual Netlify path:
 1. Open Netlify.
 2. Drag `D:\a1-program-manager\site.zip` or the `D:\a1-program-manager\site` folder into a manual deploy.
 3. Re-check the live URL for:
-   - `Public portfolio build / Week 5 categorized expansion`
+   - `Public portfolio build / Week 5 creative-AI expansion`
+   - `case-fate-scenario-weaver.html`
    - `case-agent-trading-league.html`
    - `case-ninja-account-manager.html`
    - `case-trader-dan.html`
    - `case-ma-cross-workbench.html`
    - `case-large-candle-studio.html`
+   - `fate-scenario-weaver.png`
    - `agent-trading-league.png`
    - `ninja-account-manager-dashboard.png`
    - `ninja-account-manager-strategy.png`
