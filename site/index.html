@@ -8,7 +8,7 @@
       name="description"
       content="Portfolio for Eric Irwin: AI systems, local-first automation, analytics dashboards, trading simulation, and business workflow software."
     />
-    <link rel="stylesheet" href="styles.css?v=20260617w7" />
+    <link rel="stylesheet" href="styles.css?v=20260617w8" />
   </head>
   <body>
     <header class="topbar">
@@ -20,340 +20,232 @@
         </span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#work">Work</a>
+        <a href="#work">Showcase</a>
+        <a href="#project-index">Project Index</a>
         <a href="#proof">Proof</a>
-        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="intro" aria-labelledby="intro-title">
+      <section class="intro portfolio-hero" aria-labelledby="intro-title">
         <div class="intro-copy">
           <p class="eyebrow">AI systems, automation, analytics, and internal tools</p>
-          <h1 id="intro-title">
-            I build practical software that turns messy workflows into reliable systems.
-          </h1>
+          <h1 id="intro-title">Evidence-backed software for messy real-world workflows.</h1>
           <p class="lead">
-            My work spans local-first AI agents, RAG-grounded document automation,
-            operational dashboards, trading research infrastructure, deterministic simulation,
-            and backend data pipelines.
+            I build local-first AI systems, operational dashboards, simulations, and trading
+            research tools where the useful part is not the demo sparkle. It is the audit trail:
+            tests, review loops, runnable surfaces, and private-data boundaries.
           </p>
           <p class="availability">
             Open to senior AI/software engineering roles and contract builds for internal tools,
-            automation, and analytics platforms.
+            workflow automation, analytics products, and evidence-grounded AI platforms.
           </p>
           <div class="intro-actions">
-            <a class="button primary" href="#work">View Case Studies</a>
+            <a class="button primary" href="#work">View Showcase</a>
             <a class="button secondary" href="Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf">Download Resume</a>
           </div>
         </div>
-        <div class="proof-panel" aria-label="Portfolio proof snapshot">
-          <div class="proof-row">
-            <span>Verified workers</span>
-            <strong>Claude + Gemini + Ollama</strong>
+        <aside class="hero-brief" aria-label="Portfolio snapshot">
+          <p class="eyebrow">Selected signal</p>
+          <h2>Five lead case studies, six supporting systems.</h2>
+          <div class="brief-list">
+            <span>Local AI and RAG workflows</span>
+            <span>Business operations dashboards</span>
+            <span>Deterministic simulation and replay</span>
+            <span>Trading analytics and optimizer evidence</span>
           </div>
-          <div class="proof-row">
-            <span>Runnable demos verified</span>
-            <strong>11 categorized case studies, including client, creative-AI, agent, and trading-research systems</strong>
+          <div class="brief-proof">
+            <strong>232+</strong>
+            <span>observed passing tests across highlighted systems, plus verified local launches and redacted public captures.</span>
           </div>
-          <div class="proof-row">
-            <span>Automated tests observed</span>
-            <strong>232 passing tests across three systems, plus current lint/build checks</strong>
-          </div>
-          <div class="proof-row">
-            <span>Primary focus</span>
-            <strong>Useful AI, grounded evidence, real workflows</strong>
-          </div>
-        </div>
+        </aside>
       </section>
 
-      <section class="band" id="work" aria-labelledby="work-title">
+      <section class="band showcase" id="work" aria-labelledby="work-title">
         <div class="section-heading">
-          <p class="eyebrow">Featured work</p>
-          <h2 id="work-title">Case Studies</h2>
+          <p class="eyebrow">Best work first</p>
+          <h2 id="work-title">Showcase Projects</h2>
           <p>
-            These projects were packaged from working local repositories.
-            Public screenshots use demo or sanitized data only.
+            These are the strongest public portfolio anchors: they have clear product stories,
+            working surfaces, screenshot evidence, and credible engineering depth.
           </p>
         </div>
 
-        <div class="case-groups">
-          <section class="case-category" aria-labelledby="cat-ai-agents">
-            <div class="category-heading">
-              <div>
-                <p class="eyebrow">Category</p>
-                <h3 id="cat-ai-agents">AI & Agent Workflows</h3>
+        <div class="showcase-grid">
+          <article class="showcase-card flagship">
+            <a class="showcase-image" href="case-empire-of-drawdown.html" aria-label="Open Empire of Drawdown case study">
+              <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown trading strategy game dashboard with API status and playable loop target" />
+              <span>Lead Showcase</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">TypeScript / React / Fastify / Simulation</p>
+              <h3>Empire of Drawdown</h3>
+              <p>
+                A deterministic trading-strategy game with replay, campaign rules, reusable
+                strategy execution, API boundaries, and a browser debrief flow.
+              </p>
+              <div class="proof-chips" aria-label="Empire of Drawdown proof points">
+                <span>169 tests passed</span>
+                <span>Demo API returned 200</span>
+                <span>Replay + debrief UI</span>
               </div>
-              <p>Local-first systems that use agents, evidence, and review loops to make decisions easier to trust.</p>
+              <a class="case-link" href="case-empire-of-drawdown.html">Open case study</a>
             </div>
-            <div class="case-grid">
-              <article class="case-card">
-                <div class="case-visual evidence has-image">
-                  <img src="media/job-application-factory.png" alt="Job Application Factory dashboard in mock demo mode using the Alex Builder profile" />
-                  <span>Evidence Library</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">RAG / Local LLMs / Streamlit / Critic agents</p>
-                  <h3>Job Application Factory</h3>
-                  <p>
-                    A local-first AI career copilot that drafts application packages from verified
-                    evidence and checks unsupported claims with a critic loop.
-                  </p>
-                  <ul>
-                    <li>Key AI/document dependencies import successfully.</li>
-                    <li>Designed for mock-demo mode and private local data.</li>
-                    <li>Demonstrates RAG, structured generation, and workflow automation.</li>
-                  </ul>
-                  <a class="case-link" href="case-job-application-factory.html">Open case study</a>
-                </div>
-              </article>
+          </article>
 
-              <article class="case-card">
-                <div class="case-visual ledger has-image">
-                  <img src="media/agentic-engine-dashboard.png" alt="Agentic Idea Validation Engine dashboard with idea counts, assets, and quick capture" />
-                  <span>Idea -> Test -> Decision</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Python / SQLite / Local-first workflow</p>
-                  <h3>Agentic Idea Validation Engine</h3>
-                  <p>
-                    A lightweight decision ledger that moves ideas through hypotheses, test plans,
-                    runs, results, and decision memos.
-                  </p>
-                  <ul>
-                    <li>51 tests passed in current verification.</li>
-                    <li>Local HTTP launch returned 200.</li>
-                    <li>Works as an evidence backbone for project decisions.</li>
-                  </ul>
-                  <a class="case-link" href="case-agentic-engine.html">Open case study</a>
-                </div>
-              </article>
-
-              <article class="case-card">
-                <div class="case-visual story has-image">
-                  <img src="media/fate-scenario-weaver.png" alt="Fate Scenario Weaver output view showing generated scenario counts, issues, and GM story guide" />
-                  <span>Character -> Scenario -> Export</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Next.js / Prisma / SQLite / Local AI providers</p>
-                  <h3>Fate Scenario Weaver</h3>
-                  <p>
-                    An AI-assisted workbench that turns Fate RPG campaigns and player characters
-                    into structured scenarios, audits, GM guides, scene detail, and exports.
-                  </p>
-                  <ul>
-                    <li>Supports deterministic mock, Ollama, and CLI-backed AI provider boundaries.</li>
-                    <li>Models campaigns, PCs, skills, clues, clocks, NPCs, versions, and audit results.</li>
-                    <li>Portfolio capture uses a seeded public-safe SQLite database.</li>
-                  </ul>
-                  <a class="case-link" href="case-fate-scenario-weaver.html">Open case study</a>
-                </div>
-              </article>
-
-              <article class="case-card wide">
-                <div class="case-visual league has-image">
-                  <img src="media/agent-trading-league.png" alt="Agent Trading League command center showing replay metrics, standings, and selected agent evidence" />
-                  <span>Replay -> Score -> Learn</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Python / SQLite / Replay scoring / Bounded learning</p>
-                  <h3>Agent Trading League</h3>
-                  <p>
-                    A local command center where different trading agents compete through replay,
-                    validation splits, learning patch queues, and operator-controlled promotion gates.
-                  </p>
-                  <ul>
-                    <li>12 tests passed after the screenshot and app-banner fix.</li>
-                    <li>Shows agent roster, replay evidence, holdout checks, and patch audit state.</li>
-                    <li>Public capture is cropped to hide local data paths and private runtime details.</li>
-                  </ul>
-                  <a class="case-link" href="case-agent-trading-league.html">Open case study</a>
-                </div>
-              </article>
-            </div>
-          </section>
-
-          <section class="case-category" aria-labelledby="cat-client-ops">
-            <div class="category-heading">
-              <div>
-                <p class="eyebrow">Category</p>
-                <h3 id="cat-client-ops">Client & Operations Platforms</h3>
+          <article class="showcase-card">
+            <a class="showcase-image" href="case-job-application-factory.html" aria-label="Open Job Application Factory case study">
+              <img src="media/job-application-factory.png" alt="Job Application Factory dashboard in mock demo mode using the Alex Builder profile" />
+              <span>AI Workflow</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">RAG / Local LLMs / Streamlit / Critic agents</p>
+              <h3>Job Application Factory</h3>
+              <p>
+                A local-first AI career copilot that drafts application packages from verified
+                evidence and checks unsupported claims before export.
+              </p>
+              <div class="proof-chips">
+                <span>Mock-demo safe</span>
+                <span>Evidence library</span>
               </div>
-              <p>Business-facing sites and dashboards built around real operating workflows, sanitized for public review.</p>
+              <a class="case-link" href="case-job-application-factory.html">Open case study</a>
             </div>
-            <div class="case-grid">
-              <article class="case-card">
-                <div class="case-visual client has-image">
-                  <img src="media/trader-dan-home.png" alt="TraderDan futures education homepage hero with dark professional trading theme" />
-                  <span>Client Site Build</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Next.js / TypeScript / Tailwind / Client launch</p>
-                  <h3>TraderDan Client Site</h3>
-                  <p>
-                    A professional futures trading education website with marketing pages,
-                    pricing paths, legal disclaimers, and member-area foundations.
-                  </p>
-                  <ul>
-                    <li>Local client site verified over HTTP before packaging.</li>
-                    <li>Built with reusable Next.js pages and shadcn-style UI primitives.</li>
-                    <li>Screenshot is prelaunch public surface only; private integrations are not shown.</li>
-                  </ul>
-                  <a class="case-link" href="case-trader-dan.html">Open case study</a>
-                </div>
-              </article>
+          </article>
 
-              <article class="case-card">
-                <div class="case-visual ops has-image">
-                  <img src="media/trades-resource-dashboard.png" alt="Trades Resource Command Center demo dashboard in client demo mode with generated demo data" />
-                  <span>Owner Today View</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Streamlit / Operations / Data normalization</p>
-                  <h3>Trades Resource Command Center</h3>
-                  <p>
-                    A staffing operations dashboard for assignments, open orders, recruiter follow-up,
-                    candidate readiness, and customer import review.
-                  </p>
-                  <ul>
-                    <li>Safe demo launch returned HTTP 200 under forced client-demo settings.</li>
-                    <li>Runtime uploads, sessions, exports, and local secrets are ignored by Git.</li>
-                    <li>Shows contract-ready business workflow design.</li>
-                  </ul>
-                  <a class="case-link" href="case-trades-resource.html">Open case study</a>
-                </div>
-              </article>
-            </div>
-          </section>
-
-          <section class="case-category" aria-labelledby="cat-trading-research">
-            <div class="category-heading">
-              <div>
-                <p class="eyebrow">Category</p>
-                <h3 id="cat-trading-research">Trading Research & Runtime Systems</h3>
+          <article class="showcase-card">
+            <a class="showcase-image" href="case-trades-resource.html" aria-label="Open Trades Resource Command Center case study">
+              <img src="media/trades-resource-dashboard.png" alt="Trades Resource Command Center demo dashboard in client demo mode with generated demo data" />
+              <span>Client Operations</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">Streamlit / Operations / Data normalization</p>
+              <h3>Trades Resource Command Center</h3>
+              <p>
+                A staffing operations dashboard for assignment endings, open orders, recruiter
+                follow-up, candidate readiness, and customer import review.
+              </p>
+              <div class="proof-chips">
+                <span>HTTP 200 demo launch</span>
+                <span>Sanitized data</span>
               </div>
-              <p>Research, reporting, and operator tooling that turn market experiments into reviewable software artifacts.</p>
+              <a class="case-link" href="case-trades-resource.html">Open case study</a>
             </div>
-            <div class="case-grid">
-              <article class="case-card wide">
-                <div class="case-visual matrix has-image">
-                  <img src="media/ta-foundation-suite.png" alt="Sanitized TA Foundation trading intelligence suite visual showing evidence pipeline, capability signals, and weekly coverage matrix" />
-                  <span>Trading Intelligence Suite</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">NinjaTrader exports / Analytics / Optimizers / Reports</p>
-                  <h3>TA Foundation</h3>
-                  <p>
-                    A large trading analytics platform being split into focused public demos:
-                    backtest intelligence reports, strategy discovery, optimizer packages,
-                    deployment matrix, exit-policy simulation, market-data diagnostics, and
-                    research intake.
-                  </p>
-                  <ul>
-                    <li>Capability catalog and analysis guide identify shipped report, optimizer, prediction, and discovery surfaces.</li>
-                    <li>Public packaging will emphasize architecture and sanitized artifacts, not proprietary strategy parameters.</li>
-                  </ul>
-                  <a class="case-link" href="case-ta-foundation.html">Open case study</a>
-                </div>
-              </article>
+          </article>
 
-              <article class="case-card wide">
-                <div class="case-visual runtime has-image">
-                  <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager desktop dashboard with fake account, order, and market data" />
-                  <span>Desktop Runtime Bridge</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Python / DearPyGUI / WebSockets / Strategy API</p>
-                  <h3>NinjaAccountManager</h3>
-                  <p>
-                    A desktop runtime monitor that connects NinjaTrader-originated account, order,
-                    position, market-data, and strategy events to a guarded local operator console.
-                  </p>
-                  <ul>
-                    <li>Source inspection found WebSocket, AppState, event bus, dashboard, strategy console, and API test surfaces.</li>
-                    <li>Week 4 public assets use generated fixtures only: fake accounts, fake orders, and simulated bridge events.</li>
-                    <li>Adds a desktop/runtime integration signal without exposing live trading state or strategy controls.</li>
-                  </ul>
-                  <a class="case-link" href="case-ninja-account-manager.html">Open case study</a>
-                </div>
-              </article>
-
-              <article class="case-card">
-                <div class="case-visual research has-image">
-                  <img src="media/ma-cross-workbench.png" alt="MA-Cross Workbench with moving average overlay and crossover detection chart" />
-                  <span>Explore -> Discover -> Prove</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Flask / ta_foundation / Strategy discovery</p>
-                  <h3>MA-Cross Workbench</h3>
-                  <p>
-                    A local research UI that walks moving-average hypotheses through
-                    feature exploration, cost-aware sweeps, and cross-instrument proof.
-                  </p>
-                  <ul>
-                    <li>Verified running locally before packaging.</li>
-                    <li>Uses real engine boundaries instead of reimplementing analytics in the UI.</li>
-                    <li>Surfaces sample size, costs, OOS degradation, and anti-overfit gates.</li>
-                  </ul>
-                  <a class="case-link" href="case-ma-cross-workbench.html">Open case study</a>
-                </div>
-              </article>
-
-              <article class="case-card">
-                <div class="case-visual analytics has-image">
-                  <img src="media/large-candle-studio.png" alt="Large Candle Excursion Studio analysis controls and strategy construction dashboard" />
-                  <span>Event Study Studio</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">Flask / Event studies / SSE runner / Reports</p>
-                  <h3>Large Candle Excursion Studio</h3>
-                  <p>
-                    A local event-study workbench for analyzing large price moves, forward
-                    excursions, tick-path reversals, target curves, and strategy blueprints.
-                  </p>
-                  <ul>
-                    <li>Verified running locally before packaging.</li>
-                    <li>Streams long analysis runs and reads existing result artifacts without publishing raw data.</li>
-                    <li>Turns exploratory research into reviewed decision and strategy-construction surfaces.</li>
-                  </ul>
-                  <a class="case-link" href="case-large-candle-studio.html">Open case study</a>
-                </div>
-              </article>
-            </div>
-          </section>
-
-          <section class="case-category" aria-labelledby="cat-simulation">
-            <div class="category-heading">
-              <div>
-                <p class="eyebrow">Category</p>
-                <h3 id="cat-simulation">Simulation & Interactive Systems</h3>
+          <article class="showcase-card">
+            <a class="showcase-image" href="case-agentic-engine.html" aria-label="Open Agentic Idea Validation Engine case study">
+              <img src="media/agentic-engine-dashboard.png" alt="Agentic Idea Validation Engine dashboard with idea counts, assets, and quick capture" />
+              <span>Decision Ledger</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">Python / SQLite / Local-first workflow</p>
+              <h3>Agentic Idea Validation Engine</h3>
+              <p>
+                A lightweight system for moving ideas through hypotheses, test plans, runs,
+                results, decision memos, reusable assets, and promotion decisions.
+              </p>
+              <div class="proof-chips">
+                <span>51 tests passed</span>
+                <span>Local launch returned 200</span>
               </div>
-              <p>Playable, deterministic systems that make complex strategy behavior inspectable in the browser.</p>
+              <a class="case-link" href="case-agentic-engine.html">Open case study</a>
             </div>
-            <div class="case-grid">
-              <article class="case-card flagship">
-                <div class="case-visual replay has-image">
-                  <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown trading strategy game dashboard with API status and playable loop target" />
-                  <span>Battle Replay</span>
-                </div>
-                <div class="case-body">
-                  <p class="tag">TypeScript / React / Fastify / Simulation</p>
-                  <h3>Empire of Drawdown</h3>
-                  <p>
-                    A trading-strategy game built over deterministic replay, reusable strategy
-                    execution, game-domain rules, and a browser debrief flow.
-                  </p>
-                  <ul>
-                    <li>169 tests passed in current verification.</li>
-                    <li>Shows architecture discipline through simulator, strategy engine, API, and UI boundaries.</li>
-                    <li>Uses seeded demo scenarios for reviewer-friendly walkthroughs.</li>
-                  </ul>
-                  <a class="case-link" href="case-empire-of-drawdown.html">Open case study</a>
-                </div>
-              </article>
+          </article>
+
+          <article class="showcase-card">
+            <a class="showcase-image" href="case-ta-foundation.html" aria-label="Open TA Foundation case study">
+              <img src="media/ta-foundation-suite.png" alt="Sanitized TA Foundation trading intelligence suite visual showing evidence pipeline, capability signals, and weekly coverage matrix" />
+              <span>Trading Intelligence</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">NinjaTrader exports / Analytics / Optimizers / Reports</p>
+              <h3>TA Foundation</h3>
+              <p>
+                A large trading analytics platform split into public-safe demos for reporting,
+                strategy discovery, optimizer packages, diagnostics, and research intake.
+              </p>
+              <div class="proof-chips">
+                <span>Report suite</span>
+                <span>Optimizer evidence</span>
+              </div>
+              <a class="case-link" href="case-ta-foundation.html">Open case study</a>
             </div>
-          </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-index" id="project-index" aria-labelledby="project-index-title">
+        <div class="section-heading">
+          <p class="eyebrow">More proof</p>
+          <h2 id="project-index-title">Supporting Systems</h2>
+          <p>
+            These broaden the story without crowding the first screen: agents, client sites,
+            desktop bridges, and research workbenches that show range.
+          </p>
+        </div>
+
+        <div class="index-grid">
+          <article class="index-card">
+            <img src="media/agent-trading-league.png" alt="Agent Trading League command center showing replay metrics, standings, and selected agent evidence" />
+            <div>
+              <p class="tag">Replay scoring / Bounded learning</p>
+              <h3>Agent Trading League</h3>
+              <p>Local agent competition dashboard with replay evidence, holdout checks, and patch approvals.</p>
+              <a class="case-link" href="case-agent-trading-league.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="index-card">
+            <img src="media/fate-scenario-weaver.png" alt="Fate Scenario Weaver output view showing generated scenario counts, issues, and GM story guide" />
+            <div>
+              <p class="tag">Next.js / Prisma / Local AI providers</p>
+              <h3>Fate Scenario Weaver</h3>
+              <p>Creative-AI workbench for turning RPG campaign data into structured scenarios and GM exports.</p>
+              <a class="case-link" href="case-fate-scenario-weaver.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="index-card">
+            <img src="media/trader-dan-home.png" alt="TraderDan futures education homepage hero with dark professional trading theme" />
+            <div>
+              <p class="tag">Next.js / TypeScript / Client launch</p>
+              <h3>TraderDan Client Site</h3>
+              <p>Professional futures education site with public pages, pricing paths, and member foundations.</p>
+              <a class="case-link" href="case-trader-dan.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="index-card">
+            <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager desktop dashboard with fake account, order, and market data" />
+            <div>
+              <p class="tag">Python / DearPyGUI / WebSockets</p>
+              <h3>NinjaAccountManager</h3>
+              <p>Desktop runtime bridge for account, order, position, market-data, and strategy events.</p>
+              <a class="case-link" href="case-ninja-account-manager.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="index-card">
+            <img src="media/ma-cross-workbench.png" alt="MA-Cross Workbench with moving average overlay and crossover detection chart" />
+            <div>
+              <p class="tag">Flask / Strategy discovery</p>
+              <h3>MA-Cross Workbench</h3>
+              <p>Research UI for cost-aware sweeps, cross-instrument proof, and anti-overfit checks.</p>
+              <a class="case-link" href="case-ma-cross-workbench.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="index-card">
+            <img src="media/large-candle-studio.png" alt="Large Candle Excursion Studio analysis controls and strategy construction dashboard" />
+            <div>
+              <p class="tag">Flask / Event studies / Reports</p>
+              <h3>Large Candle Studio</h3>
+              <p>Event-study workbench for forward excursions, reversals, target curves, and strategy blueprints.</p>
+              <a class="case-link" href="case-large-candle-studio.html">Open case study</a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -362,42 +254,22 @@
           <p class="eyebrow">Evidence</p>
           <h2 id="proof-title">Verified Status</h2>
         </div>
-        <div class="proof-grid">
+        <div class="proof-grid tight">
           <article>
-            <strong>Agentic Engine</strong>
-            <span>51 tests passed; local launch returned 200.</span>
+            <strong>Runnable surfaces</strong>
+            <span>Local launches returned HTTP 200 across the highlighted web and Streamlit demos.</span>
           </article>
           <article>
-            <strong>Trades Dashboard</strong>
-            <span>Dependencies available; safe Streamlit launch returned 200.</span>
+            <strong>Automated checks</strong>
+            <span>232 passing tests observed across Empire of Drawdown, Agentic Engine, and Agent Trading League.</span>
           </article>
           <article>
-            <strong>Empire of Drawdown</strong>
-            <span>169 tests passed; demo-mode API and web launch returned 200.</span>
+            <strong>Public-safe packaging</strong>
+            <span>Portfolio screenshots use demo, seeded, synthetic, or sanitized data only.</span>
           </article>
           <article>
-            <strong>Job Application Factory</strong>
-            <span>Key dependencies import; mock-demo launch verified with temporary data.</span>
-          </article>
-          <article>
-            <strong>NinjaAccountManager</strong>
-            <span>Source-inspected runtime bridge; public visuals generated from synthetic fixtures.</span>
-          </article>
-          <article>
-            <strong>TraderDan Client Site</strong>
-            <span>Local Next.js site verified; public prelaunch surface captured.</span>
-          </article>
-          <article>
-            <strong>Strategy Workbenches</strong>
-            <span>MA-Cross and Large Candle local apps verified before packaging.</span>
-          </article>
-          <article>
-            <strong>Agent Trading League</strong>
-            <span>Local health endpoint returned 200; 12 tests passed after the app banner fix.</span>
-          </article>
-          <article>
-            <strong>Fate Scenario Weaver</strong>
-            <span>Public-safe seeded demo verified; lint and production build passed.</span>
+            <strong>Private-data boundaries</strong>
+            <span>Raw customer files, local databases, strategy parameters, and runtime secrets stay out of public Git.</span>
           </article>
         </div>
       </section>
@@ -414,11 +286,11 @@
           </div>
           <div>
             <h3>Business Operations Tools</h3>
-            <p>Dashboards, review workflows, internal admin tools, uploads, exports, and process automation.</p>
+            <p>Dashboards, review workflows, admin tools, uploads, exports, and process automation.</p>
           </div>
           <div>
             <h3>Analytics And Simulation</h3>
-            <p>Backtest reports, deterministic replay, risk scoring, data quality checks, and decision packages.</p>
+            <p>Backtest reports, deterministic replay, risk scoring, data checks, and decision packages.</p>
           </div>
           <div>
             <h3>Local-First Platforms</h3>
@@ -446,7 +318,7 @@
 
     <footer>
       <span>Eric Irwin Portfolio</span>
-      <span>Public portfolio build / Week 5 creative-AI expansion</span>
+      <span>Public portfolio build / curated showcase pass</span>
     </footer>
   </body>
 </html>
