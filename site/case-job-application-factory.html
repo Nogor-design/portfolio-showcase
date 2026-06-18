@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Job Application Factory | Eric Irwin Portfolio</title>
-    <link rel="stylesheet" href="styles.css?v=20260617w8" />
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
   </head>
   <body>
     <header class="topbar">
@@ -14,8 +14,8 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
         <a href="index.html#proof">Proof</a>
-        <a href="index.html#services">Services</a>
         <a href="index.html#contact">Contact</a>
       </nav>
     </header>
@@ -29,8 +29,43 @@
             A local-first AI career copilot that drafts job-application assets from approved
             evidence, then checks for unsupported claims before export.
           </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
         </div>
         <img src="media/job-application-factory.png" alt="Job Application Factory in mock demo mode using Alex Builder profile" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Evidence-grounded generation with a critic loop</h2>
+          <p>
+            The system separates private source evidence from generation, review, and export so
+            AI output can be useful without inventing unsupported claims.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="Job Application Factory architecture flow">
+              <div class="flow-step"><span>1</span><h3>Approved Evidence</h3><p>Resume facts, accomplishments, and role context stay in a local library.</p></div>
+              <div class="flow-step"><span>2</span><h3>Job Matching</h3><p>Retrieval and scoring connect target roles to relevant proof.</p></div>
+              <div class="flow-step"><span>3</span><h3>Package Builder</h3><p>Local/demo AI drafts tailored resume, cover letter, and outreach assets.</p></div>
+              <div class="flow-step"><span>4</span><h3>Critic Review</h3><p>Validation checks flag unsupported claims before export.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Customer Savings To Validate</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Less manual tailoring</strong><span>Reusable evidence reduces blank-page writing for each new role.</span></div>
+              <div class="savings-card"><strong>Fewer quality misses</strong><span>Critic checks help catch claims that are not backed by the evidence library.</span></div>
+              <div class="savings-card"><strong>Private by design</strong><span>Local data boundaries reduce exposure risk during drafting and review.</span></div>
+            </div>
+            <p class="roi-note">Savings are framed as pilot targets until measured against the user's current application workflow.</p>
+          </article>
+        </div>
       </section>
 
       <section class="case-detail">

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Empire of Drawdown | Eric Irwin Portfolio</title>
-    <link rel="stylesheet" href="styles.css?v=20260617w8" />
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
   </head>
   <body>
     <header class="topbar">
@@ -14,8 +14,8 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
         <a href="index.html#proof">Proof</a>
-        <a href="index.html#services">Services</a>
         <a href="index.html#contact">Contact</a>
       </nav>
     </header>
@@ -29,8 +29,43 @@
             A trading-strategy game that turns deterministic replay, risk, and strategy outcomes
             into a browser walkthrough a reviewer can understand quickly.
           </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
         </div>
         <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown dashboard with API status and playable loop target" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Replay infrastructure made reviewable</h2>
+          <p>
+            The architecture turns backend simulation evidence into a product surface that a
+            stakeholder can inspect without reading logs or trusting a black-box result.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="Empire of Drawdown architecture flow">
+              <div class="flow-step"><span>1</span><h3>Seeded Scenario</h3><p>Reviewer-safe campaign setup with no live account dependency.</p></div>
+              <div class="flow-step"><span>2</span><h3>Simulation Engine</h3><p>Deterministic strategy execution and risk rules.</p></div>
+              <div class="flow-step"><span>3</span><h3>Replay API</h3><p>Fastify boundary exposes outcomes and event payloads.</p></div>
+              <div class="flow-step"><span>4</span><h3>Debrief UI</h3><p>React screens translate replay data into an inspectable walkthrough.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Customer Savings To Validate</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Faster review</strong><span>Turns raw strategy logs into a guided replay and debrief path.</span></div>
+              <div class="savings-card"><strong>Less rework</strong><span>Reusable seeded scenarios make regressions easier to spot and repeat.</span></div>
+              <div class="savings-card"><strong>Lower demo risk</strong><span>Public review stays separate from brokerage, account, and live execution state.</span></div>
+            </div>
+            <p class="roi-note">ROI language is directional: exact savings would be measured against the customer's current review cycle.</p>
+          </article>
+        </div>
       </section>
 
       <section class="case-media-strip" aria-label="Empire of Drawdown demo screenshots">

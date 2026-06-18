@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NinjaAccountManager | Eric Irwin Portfolio</title>
-    <link rel="stylesheet" href="styles.css?v=20260617w8" />
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
   </head>
   <body>
     <header class="topbar">
@@ -14,8 +14,8 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
         <a href="index.html#proof">Proof</a>
-        <a href="index.html#services">Services</a>
         <a href="index.html#contact">Contact</a>
       </nav>
     </header>
@@ -30,8 +30,43 @@
             market-data, and strategy events over a local WebSocket bridge, then exposes a
             guarded localhost strategy API for automation.
           </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
         </div>
         <img src="media/ninja-account-manager-dashboard.png" alt="Synthetic NinjaAccountManager dashboard with mocked account, position, order, and market data" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Runtime bridge with operator controls</h2>
+          <p>
+            The architecture gives live-platform events a controlled local boundary before they
+            reach automation, strategy APIs, or operator-facing recovery tools.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="NinjaAccountManager architecture flow">
+              <div class="flow-step"><span>1</span><h3>Platform Events</h3><p>Account, position, order, strategy, and market-data messages arrive locally.</p></div>
+              <div class="flow-step"><span>2</span><h3>WebSocket Bridge</h3><p>Python receives and routes event data through a controlled runtime boundary.</p></div>
+              <div class="flow-step"><span>3</span><h3>App State + GUI</h3><p>DearPyGUI panels make account, order, and strategy status visible to an operator.</p></div>
+              <div class="flow-step"><span>4</span><h3>Strategy API</h3><p>Guarded localhost commands keep automation under explicit safety controls.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Customer Savings To Validate</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Faster diagnosis</strong><span>Runtime state, heartbeat, and event flow are visible in one operating surface.</span></div>
+              <div class="savings-card"><strong>Less manual checking</strong><span>Account/order/strategy state does not have to be pieced together from logs alone.</span></div>
+              <div class="savings-card"><strong>Safer automation</strong><span>Local command boundaries support human review before dangerous actions.</span></div>
+            </div>
+            <p class="roi-note">Savings are about operational control and troubleshooting time, not trading results.</p>
+          </article>
+        </div>
       </section>
 
       <section class="case-media-strip" aria-label="NinjaAccountManager mock demo captures">
