@@ -56,7 +56,7 @@ Since you know what customers and hiring managers are actually looking for, I wo
 Thanks,
 Eric
 
-## Fast Recruiter Positioning
+## Positioning
 
 Eric is strongest when the work is messy, operational, and hard to explain before someone prototypes it:
 
@@ -99,7 +99,7 @@ The live Trades demo shows Eric can build a usable operational dashboard. The Re
 Ask Laura specifically:
 
 - Does the positioning make Eric easy to place?
-- Which project should lead for recruiters?
+- Which project should lead for hiring conversations?
 - Which project should lead for clients?
 - Are there job titles or contract categories she would use that should appear on the homepage?
 - Is anything too technical, too niche, or unclear for a nontechnical buyer?
