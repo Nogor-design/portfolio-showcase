@@ -28,7 +28,7 @@ Status as of 2026-06-20 Workflow MRI flagship integration.
 
 ## Immediate Next Work
 
-1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL after the Workflow MRI publish check passes.
+1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
 2. Do a human copy pass on the five newest cases before broad client-facing sharing.
 3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.

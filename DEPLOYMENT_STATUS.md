@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Workflow MRI twelve-case flagship package is being published and verified on GitHub Pages
+Status: Workflow MRI twelve-case flagship package is live and verified on GitHub Pages
 Last checked: 2026-06-20
 
 ## Current GitHub State
@@ -44,6 +44,7 @@ Live check result after Workflow MRI flagship publish:
 - `case-workflow-mri.html` linked from homepage: yes
 - Workflow MRI portfolio-hosted live demo linked from homepage: yes
 - Workflow MRI case page returns the expected title/H1 and image loads: yes
+- Workflow MRI embedded demo returns HTTP 200 and React content loads: yes
 - `case-fate-scenario-weaver.html` linked from homepage: yes
 - `case-agent-trading-league.html` linked from homepage: yes
 - `case-ninja-account-manager.html` linked from homepage: yes
@@ -66,7 +67,7 @@ Live check result after Workflow MRI flagship publish:
 Browser QA result:
 
 - Local desktop and mobile render passed across all 13 site pages before publish.
-- Live homepage and Fate Scenario Weaver case page rendered after publish.
+- Live homepage, Workflow MRI case page, and embedded Workflow MRI demo rendered after publish.
 - Live mobile homepage rendered after publish.
 - No missing images.
 - No missing alt text.
@@ -111,6 +112,12 @@ The branch-publish workflow completed successfully for the verified eleven-case 
 
 ```text
 https://github.com/Nogor-design/portfolio-showcase/actions/runs/27716028824
+```
+
+The branch-publish workflow completed successfully for the Workflow MRI flagship deploy:
+
+```text
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27885300496
 ```
 
 ## Current Manual Redeploy Package
