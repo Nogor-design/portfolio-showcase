@@ -151,7 +151,7 @@ Status as of 2026-06-20 Workflow MRI flagship integration.
   - Workflow MRI web test suite now includes Safe Mode redaction coverage; `npm test`, `npm run build`, and engine `python -m pytest` pass.
   - Public-safe screenshot captured at `site/media/workflow-mri-workbench.png`.
   - `site/case-workflow-mri.html` added.
-  - Homepage now promotes Workflow MRI as the first flagship case, with live demo and code links.
+  - Homepage now promotes Workflow MRI as the first flagship case, with an embedded portfolio-hosted demo and code links.
 
 ## Current Local Open Command
 

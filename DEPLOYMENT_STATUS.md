@@ -42,7 +42,7 @@ Live check result after Workflow MRI flagship publish:
 - Homepage case-card count: 12
 - Homepage category count: 4
 - `case-workflow-mri.html` linked from homepage: yes
-- Workflow MRI live demo linked from homepage: yes
+- Workflow MRI portfolio-hosted live demo linked from homepage: yes
 - Workflow MRI case page returns the expected title/H1 and image loads: yes
 - `case-fate-scenario-weaver.html` linked from homepage: yes
 - `case-agent-trading-league.html` linked from homepage: yes

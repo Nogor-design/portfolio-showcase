@@ -66,6 +66,7 @@ Latest verification checked:
 - Resume PDF returns HTTP 200.
 - Homepage and case-study pages render without horizontal overflow at desktop width.
 - Workflow MRI case page and workbench visual load on the homepage and case-study page.
+- Workflow MRI embedded demo is served from `demos/workflow-mri/`.
 - Homepage, Empire case study, Job Application Factory case study, and TA Foundation case study render without horizontal overflow at 390px mobile width.
 - Images load with nonzero dimensions and alt text.
 - Job Application Factory proof visual loads on the case-study page.

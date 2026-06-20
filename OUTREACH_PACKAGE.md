@@ -26,7 +26,7 @@ https://trades-command-center.streamlit.app/
 Workflow MRI flagship demo:
 
 ```text
-https://nogor-design.github.io/workflow-mri/
+https://nogor-design.github.io/portfolio-showcase/demos/workflow-mri/
 ```
 
 Recipe Optimizer clickable mockup:
