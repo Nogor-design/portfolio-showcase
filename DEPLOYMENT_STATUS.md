@@ -1,7 +1,7 @@
 # Deployment Status
 
-Status: Categorized eleven-case package is live and verified on GitHub Pages
-Last checked: 2026-06-17
+Status: Workflow MRI twelve-case flagship package is being published and verified on GitHub Pages
+Last checked: 2026-06-20
 
 ## Current GitHub State
 
@@ -35,12 +35,15 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after categorized eleven-case publish:
+Live check result after Workflow MRI flagship publish:
 
 - HTTP status: 200
 - Categorized homepage rendered: yes
-- Homepage case-card count: 11
+- Homepage case-card count: 12
 - Homepage category count: 4
+- `case-workflow-mri.html` linked from homepage: yes
+- Workflow MRI live demo linked from homepage: yes
+- Workflow MRI case page returns the expected title/H1 and image loads: yes
 - `case-fate-scenario-weaver.html` linked from homepage: yes
 - `case-agent-trading-league.html` linked from homepage: yes
 - `case-ninja-account-manager.html` linked from homepage: yes
@@ -62,7 +65,7 @@ Live check result after categorized eleven-case publish:
 
 Browser QA result:
 
-- Local desktop and mobile render passed across all 12 site pages before publish.
+- Local desktop and mobile render passed across all 13 site pages before publish.
 - Live homepage and Fate Scenario Weaver case page rendered after publish.
 - Live mobile homepage rendered after publish.
 - No missing images.

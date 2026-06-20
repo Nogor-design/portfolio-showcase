@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-17 categorized eleven-case package.
+Status as of 2026-06-20 Workflow MRI flagship integration.
 
 ## Verified So Far
 
@@ -28,7 +28,7 @@ Status as of 2026-06-17 categorized eleven-case package.
 
 ## Immediate Next Work
 
-1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL.
+1. Start outreach using `OUTREACH_PACKAGE.md` and the verified GitHub Pages URL after the Workflow MRI publish check passes.
 2. Do a human copy pass on the five newest cases before broad client-facing sharing.
 3. If Netlify remains desired, reconnect/redeploy it from GitHub or the current `site.zip`; do not share the old stale drag-drop URL.
 4. Replace NinjaAccountManager synthetic visuals with captured app screenshots only after a durable mocked app runner exists in the sibling repo.
@@ -145,6 +145,13 @@ Status as of 2026-06-17 categorized eleven-case package.
   - Public-safe screenshot captured at `site/media/fate-scenario-weaver.png`.
   - `site/case-fate-scenario-weaver.html` added.
   - Homepage now presents 11 categorized case studies.
+- Workflow MRI flagship integration:
+  - `D:\workflow\workflow-mri` inspected and verified as a deterministic static React workbench over fictional Meridian Claims data.
+  - Workflow MRI README and roadmap updated to reflect Phase 1 demo status.
+  - Workflow MRI web test suite now includes Safe Mode redaction coverage; `npm test`, `npm run build`, and engine `python -m pytest` pass.
+  - Public-safe screenshot captured at `site/media/workflow-mri-workbench.png`.
+  - `site/case-workflow-mri.html` added.
+  - Homepage now promotes Workflow MRI as the first flagship case, with live demo and code links.
 
 ## Current Local Open Command
 
