@@ -1,94 +1,106 @@
 # Outreach Package
 
-Status: ready for Week 3 public sharing
-Last updated: 2026-06-17
+Status: ready for Laura review
+Last updated: 2026-06-20
 
 ## Verified Links
 
-Live QA has passed on GitHub Pages. Current deployment status lives in `DEPLOYMENT_STATUS.md`.
-
-Current repo:
-
-```text
-https://github.com/Nogor-design/portfolio-showcase
-```
-
-Verified live portfolio:
+Portfolio:
 
 ```text
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Verified resume:
+Resume:
 
 ```text
 https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
 ```
 
-## Short Recruiter Message
-
-Hi, I am Eric Irwin. I build practical AI software, automation, analytics systems, and internal workflow tools.
-
-I put together a portfolio with working project evidence: local-first RAG workflows, deterministic simulation, business operations dashboards, agentic validation tooling, and a large trading analytics/reporting platform. The public screenshots use demo or sanitized data only.
-
-Portfolio: https://nogor-design.github.io/portfolio-showcase/
-GitHub: https://github.com/Nogor-design  
-Resume: https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
-
-## Hiring Manager Message
-
-Hi, I am Eric Irwin. My strongest work sits where software engineering meets messy real-world workflows: AI-assisted document generation, local-first automation, analytics dashboards, deterministic simulation, and internal business tools.
-
-The portfolio I am sharing is built from local projects that were verified during packaging. Highlights include:
-
-- Job Application Factory: RAG-grounded application packages with critic validation and mock demo data.
-- Empire of Drawdown: TypeScript/React/Fastify simulation product with deterministic replay and debriefs.
-- Trades Resource Command Center: staffing operations dashboard built around owner and recruiter workflows.
-- Agentic Idea Validation Engine: local evidence ledger for hypothesis, test, result, and decision tracking.
-- TA Foundation: large trading analytics/reporting platform packaged with sanitized public visuals.
-
-I am especially interested in roles or contract work involving AI workflow systems, operations software, analytics tooling, and internal platforms.
-
-Portfolio: https://nogor-design.github.io/portfolio-showcase/
-
-## Role-Specific Angles
-
-AI software engineer:
-
-- Lead with Job Application Factory and Agentic Idea Validation Engine.
-- Emphasize grounded generation, local-first workflow design, critic validation, and evidence ledgers.
-
-Platform or backend engineer:
-
-- Lead with Empire of Drawdown and TA Foundation.
-- Emphasize deterministic replay, API boundaries, optimizer/report orchestration, and long-running workflow control.
-
-Automation or internal tools:
-
-- Lead with Trades Resource Command Center and Job Application Factory.
-- Emphasize messy-file normalization, daily operating views, private-data boundaries, and repeatable document workflows.
-
-## Technical Walkthrough Order
-
-1. Start with the homepage proof panel and case-study grid.
-2. Open Empire of Drawdown first for the strongest visual product story.
-3. Open Job Application Factory second to show grounded AI generation and validation.
-4. Open Trades Resource Command Center for business workflow value.
-5. Open Agentic Idea Validation Engine for local-first process and PM discipline.
-6. Close with TA Foundation as the large-system architecture and reporting story.
-
-## 90-Second Talk Track
-
-This portfolio is less about toy demos and more about practical systems. I wanted each project to show a real engineering pattern: grounded AI generation, deterministic simulation, operations dashboards, evidence ledgers, and large-scale report/optimizer orchestration.
-
-The common thread is that I take ambiguous workflows and turn them into visible, testable software. I care about privacy boundaries, demo safety, and proof that the thing actually runs. During packaging I verified tests, local launches, screenshots, and redaction checks, then turned that evidence into case studies.
-
-## Follow-Up Offer
-
-I can walk through any project in more depth, but the best live sequence is:
+Live Trades Resource Command Center demo:
 
 ```text
-Empire of Drawdown -> Job Application Factory -> Trades Resource Command Center -> Agentic Engine -> TA Foundation
+https://trades-command-center.streamlit.app/
 ```
 
-That sequence moves from visual product architecture into AI workflow design, business operations value, local-first process tooling, and large-system analytics infrastructure.
+Recipe Optimizer clickable mockup:
+
+```text
+https://nogor-design.github.io/portfolio-showcase/demos/recipe-optimizer-v2.html
+```
+
+GitHub profile:
+
+```text
+https://github.com/Nogor-design
+```
+
+## Email To Laura
+
+Subject: Updated portfolio with live demo and clickable mockup
+
+Hi Laura,
+
+I made another round of updates to the portfolio since the first version you saw. I tried to make it easier to review quickly and easier for you to forward to recruiters or clients who need practical AI/software work.
+
+Portfolio: https://nogor-design.github.io/portfolio-showcase/
+
+Resume: https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
+
+The two best links to open first are the live Trades Resource Command Center demo and the Recipe Optimizer clickable mockup. The Trades demo shows a staffing operations dashboard built around daily workflow, customer review, open orders, assignment endings, and recruiter follow-up. The Recipe Optimizer mockup shows the design process side: how I think through a complex operator workflow before turning it into production software.
+
+The portfolio is strongest for work around internal tools, AI workflow systems, spreadsheet-to-product builds, analytics/reporting systems, and local-first platforms where private data, review loops, and proof matter.
+
+Since you know what customers and hiring managers are actually looking for, I would really value your feedback. Does this positioning read clearly? Are there project types, roles, or client problems I should emphasize more directly? I am also very open to suggestions on what to cut, rename, reorder, or explain differently.
+
+Thanks,
+Eric
+
+## Fast Recruiter Positioning
+
+Eric is strongest when the work is messy, operational, and hard to explain before someone prototypes it:
+
+- Internal tools and admin dashboards
+- AI workflow systems with evidence and review loops
+- Spreadsheet, CSV, PDF, and export-driven product builds
+- Analytics/reporting systems for complex decisions
+- Local-first or private-data-aware software
+
+## Best Links To Open First
+
+1. Trades Resource Command Center
+   - Use for: internal tools, operations dashboards, staffing workflows, spreadsheet-to-product work.
+   - Why it matters: it is a live client-style demo built around a real business workflow with sanitized public data.
+
+2. Recipe Optimizer clickable mockup
+   - Use for: product design process, complex workflow design, technical operator tools.
+   - Why it matters: it shows how Eric moves from fuzzy requirements to a clickable workflow before production buildout.
+
+3. Job Application Factory
+   - Use for: AI workflow systems, RAG, local-first assistants, document generation.
+   - Why it matters: it shows evidence-grounded generation with critic checks and privacy boundaries.
+
+4. Agentic Idea Validation Engine
+   - Use for: AI process discipline, evidence ledgers, local-first tools, decision workflows.
+   - Why it matters: it shows lightweight systems thinking and auditable product loops.
+
+5. TraderDan Client Site
+   - Use for: client-facing launch surfaces, product sites, conversion paths, domain-sensitive copy.
+   - Why it matters: it shows a polished public site that can launch before every future integration is complete.
+
+## 60-Second Talk Track
+
+This portfolio is built around practical software, not toy demos. The strongest theme is turning messy workflows into visible, testable tools: staffing operations, job-application generation, idea validation, trading analytics, and client launch surfaces.
+
+The live Trades demo shows Eric can build a usable operational dashboard. The Recipe Optimizer mockup shows his design process for complex technical workflows. The supporting projects show AI systems, local-first data handling, automation, analytics, testing, and public-safe packaging.
+
+## Feedback Ask For Laura
+
+Ask Laura specifically:
+
+- Does the positioning make Eric easy to place?
+- Which project should lead for recruiters?
+- Which project should lead for clients?
+- Are there job titles or contract categories she would use that should appear on the homepage?
+- Is anything too technical, too niche, or unclear for a nontechnical buyer?
+- What should be removed, renamed, or moved lower?

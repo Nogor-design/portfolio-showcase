@@ -21,7 +21,8 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#work">Showcase</a>
-        <a href="#project-index">Project Index</a>
+        <a href="#fit">Best Fit</a>
+        <a href="#demos">Live Proof</a>
         <a href="#process">Process</a>
         <a href="#proof">Proof</a>
         <a href="#contact">Contact</a>
@@ -44,6 +45,7 @@
           </p>
           <div class="intro-actions">
             <a class="button primary" href="#work">View Showcase</a>
+            <a class="button secondary" href="#fit">How To Position Me</a>
             <a class="button secondary" href="#process">See Workflow Process</a>
             <a class="button secondary" href="Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf">Download Resume</a>
           </div>
@@ -59,9 +61,89 @@
           </div>
           <div class="brief-proof">
             <strong>232+</strong>
-            <span>observed passing tests across highlighted systems, plus verified local launches and redacted public captures.</span>
+            <span>verified during portfolio packaging across highlighted systems, plus local launch checks and redacted public captures.</span>
           </div>
         </aside>
+      </section>
+
+      <section class="band recruiter-positioning" id="fit" aria-labelledby="fit-title">
+        <div class="section-heading">
+          <p class="eyebrow">Recruiter positioning</p>
+          <h2 id="fit-title">Best fit: messy workflows that need useful software.</h2>
+          <p>
+            The strongest match is client work where the process is scattered across spreadsheets,
+            documents, exports, judgment calls, and private data. I can prototype the workflow,
+            build the operating surface, and harden the parts that prove useful.
+          </p>
+        </div>
+        <div class="service-grid fit-grid">
+          <div>
+            <h3>Internal Tools</h3>
+            <p>Dashboards, admin surfaces, intake flows, review queues, and workflow automation for teams that need a better daily operating system.</p>
+          </div>
+          <div>
+            <h3>AI Workflow Systems</h3>
+            <p>Private-data-aware assistants, evidence-grounded generation, critic checks, document workflows, and human-in-the-loop controls.</p>
+          </div>
+          <div>
+            <h3>Spreadsheet To Product</h3>
+            <p>Messy CSV, Excel, PDF, and export-driven processes turned into cleaner views, safer imports, and decision-ready dashboards.</p>
+          </div>
+          <div>
+            <h3>Analytics And Decisions</h3>
+            <p>Reporting systems, simulations, scoring, audit trails, and decision packages that make complex work easier to review.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="client-problems" id="client-problems" aria-labelledby="client-problems-title">
+        <div class="section-heading">
+          <p class="eyebrow">Client problems I solve</p>
+          <h2 id="client-problems-title">Use me when the work is real, manual, and hard to explain.</h2>
+        </div>
+        <div class="problem-grid">
+          <article>
+            <strong>Too much work lives in spreadsheets.</strong>
+            <span>I can normalize the files, expose the daily decisions, and build a safer operating view.</span>
+          </article>
+          <article>
+            <strong>The team wants AI but cannot leak private data.</strong>
+            <span>I design local-first or controlled workflows with evidence, review, and redaction boundaries.</span>
+          </article>
+          <article>
+            <strong>The process is unclear before the software exists.</strong>
+            <span>I use clickable mockups and working prototypes to validate the workflow before overbuilding.</span>
+          </article>
+          <article>
+            <strong>Leaders need proof, not another black box.</strong>
+            <span>I build tests, health checks, audit trails, screenshots, and live demo paths into the delivery.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="band live-proof" id="demos" aria-labelledby="demos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Fast proof for a recruiter or client</p>
+          <h2 id="demos-title">Two links worth opening first.</h2>
+          <p>
+            These give a quick read on both sides of the work: a live business operations demo and
+            a clickable design prototype for a more complex analytical workflow.
+          </p>
+        </div>
+        <div class="demo-link-grid">
+          <article class="demo-link-card">
+            <p class="tag">Live client-style demo</p>
+            <h3>Trades Resource Command Center</h3>
+            <p>Staffing operations dashboard for assignments, open orders, recruiter follow-up, candidate readiness, and customer review flows.</p>
+            <a class="button primary" href="https://trades-command-center.streamlit.app/" target="_blank" rel="noopener">Open Live Staffing Demo</a>
+          </article>
+          <article class="demo-link-card">
+            <p class="tag">Clickable design prototype</p>
+            <h3>Recipe Optimizer Mockup</h3>
+            <p>Prototype showing setup, staged runs, candidate review, basket disposition, and refinement loops before production implementation.</p>
+            <a class="button primary" href="demos/recipe-optimizer-v2.html" target="_blank" rel="noopener">Open Optimizer Mockup</a>
+          </article>
+        </div>
       </section>
 
       <section class="band showcase" id="work" aria-labelledby="work-title">
@@ -76,23 +158,22 @@
 
         <div class="showcase-grid">
           <article class="showcase-card flagship">
-            <a class="showcase-image" href="case-empire-of-drawdown.html" aria-label="Open Empire of Drawdown case study">
-              <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown trading strategy game dashboard with API status and playable loop target" />
-              <span>Lead Showcase</span>
+            <a class="showcase-image" href="case-trades-resource.html" aria-label="Open Trades Resource Command Center case study">
+              <img src="media/trades-resource-dashboard.png" alt="Trades Resource Command Center demo dashboard in client demo mode with generated demo data" />
+              <span>Client Operations</span>
             </a>
             <div class="showcase-body">
-              <p class="tag">TypeScript / React / Fastify / Simulation</p>
-              <h3>Empire of Drawdown</h3>
+              <p class="tag">Streamlit / Operations / Data normalization</p>
+              <h3>Trades Resource Command Center</h3>
               <p>
-                A deterministic trading-strategy game with replay, campaign rules, reusable
-                strategy execution, API boundaries, and a browser debrief flow.
+                A staffing operations dashboard for assignment endings, open orders, recruiter
+                follow-up, candidate readiness, and customer import review.
               </p>
-              <div class="proof-chips" aria-label="Empire of Drawdown proof points">
-                <span>169 tests passed</span>
-                <span>Demo API returned 200</span>
-                <span>Replay + debrief UI</span>
+              <div class="proof-chips" aria-label="Trades Resource proof points">
+                <span>Live demo available</span>
+                <span>Sanitized data</span>
               </div>
-              <a class="case-link" href="case-empire-of-drawdown.html">Open case study</a>
+              <a class="case-link" href="case-trades-resource.html">Open case study</a>
             </div>
           </article>
 
@@ -117,26 +198,6 @@
           </article>
 
           <article class="showcase-card">
-            <a class="showcase-image" href="case-trades-resource.html" aria-label="Open Trades Resource Command Center case study">
-              <img src="media/trades-resource-dashboard.png" alt="Trades Resource Command Center demo dashboard in client demo mode with generated demo data" />
-              <span>Client Operations</span>
-            </a>
-            <div class="showcase-body">
-              <p class="tag">Streamlit / Operations / Data normalization</p>
-              <h3>Trades Resource Command Center</h3>
-              <p>
-                A staffing operations dashboard for assignment endings, open orders, recruiter
-                follow-up, candidate readiness, and customer import review.
-              </p>
-              <div class="proof-chips">
-                <span>HTTP 200 demo launch</span>
-                <span>Sanitized data</span>
-              </div>
-              <a class="case-link" href="case-trades-resource.html">Open case study</a>
-            </div>
-          </article>
-
-          <article class="showcase-card">
             <a class="showcase-image" href="case-agentic-engine.html" aria-label="Open Agentic Idea Validation Engine case study">
               <img src="media/agentic-engine-dashboard.png" alt="Agentic Idea Validation Engine dashboard with idea counts, assets, and quick capture" />
               <span>Decision Ledger</span>
@@ -150,7 +211,7 @@
               </p>
               <div class="proof-chips">
                 <span>51 tests passed</span>
-                <span>Local launch returned 200</span>
+                <span>Runnable app verified</span>
               </div>
               <a class="case-link" href="case-agentic-engine.html">Open case study</a>
             </div>
@@ -159,20 +220,40 @@
           <article class="showcase-card">
             <a class="showcase-image" href="case-ta-foundation.html" aria-label="Open TA Foundation case study">
               <img src="media/ta-foundation-suite.png" alt="Sanitized TA Foundation trading intelligence suite visual showing evidence pipeline, capability signals, and weekly coverage matrix" />
-              <span>Trading Intelligence</span>
+              <span>Analytics System</span>
             </a>
             <div class="showcase-body">
-              <p class="tag">NinjaTrader exports / Analytics / Optimizers / Reports</p>
+              <p class="tag">Analytics / Optimizers / Reports / Mockups</p>
               <h3>TA Foundation</h3>
               <p>
-                A large trading analytics platform split into public-safe demos for reporting,
-                strategy discovery, optimizer packages, diagnostics, and research intake.
+                A large analytics platform split into public-safe slices for reporting,
+                strategy discovery, optimizer packages, diagnostics, and design prototypes.
               </p>
               <div class="proof-chips">
+                <span>Clickable design mockup</span>
                 <span>Report suite</span>
-                <span>Optimizer evidence</span>
               </div>
               <a class="case-link" href="case-ta-foundation.html">Open case study</a>
+            </div>
+          </article>
+
+          <article class="showcase-card">
+            <a class="showcase-image" href="case-empire-of-drawdown.html" aria-label="Open Empire of Drawdown case study">
+              <img src="media/empire-of-drawdown.png" alt="Empire of Drawdown trading strategy game dashboard with API status and playable loop target" />
+              <span>Simulation</span>
+            </a>
+            <div class="showcase-body">
+              <p class="tag">TypeScript / React / Fastify / Simulation</p>
+              <h3>Empire of Drawdown</h3>
+              <p>
+                A deterministic strategy game with replay, campaign rules, reusable strategy
+                execution, API boundaries, and a browser debrief flow.
+              </p>
+              <div class="proof-chips">
+                <span>169 tests passed</span>
+                <span>Replay + debrief UI</span>
+              </div>
+              <a class="case-link" href="case-empire-of-drawdown.html">Open case study</a>
             </div>
           </article>
         </div>
@@ -304,11 +385,11 @@
         <div class="proof-grid tight">
           <article>
             <strong>Runnable surfaces</strong>
-            <span>Local launches returned HTTP 200 across the highlighted web and Streamlit demos.</span>
+            <span>Highlighted web and Streamlit demos were opened and checked during portfolio packaging.</span>
           </article>
           <article>
             <strong>Automated checks</strong>
-            <span>232 passing tests observed across Empire of Drawdown, Agentic Engine, and Agent Trading League.</span>
+            <span>232 passing tests were verified across Empire of Drawdown, Agentic Engine, and Agent Trading League.</span>
           </article>
           <article>
             <strong>Public-safe packaging</strong>
