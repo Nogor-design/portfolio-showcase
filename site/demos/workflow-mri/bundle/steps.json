@@ -5,8 +5,14 @@
     "owner_role": "Intake Clerk",
     "sequence_index": 0,
     "cycle_time_hours": 6.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "claim submission",
+      "claimant details"
+    ],
+    "outputs": [
+      "opened claim record",
+      "intake status"
+    ],
     "is_review": false,
     "is_approval": false,
     "is_bottleneck": false,
@@ -28,8 +34,14 @@
     "owner_role": "Triage Specialist",
     "sequence_index": 1,
     "cycle_time_hours": 8.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "opened claim record",
+      "coverage flags"
+    ],
+    "outputs": [
+      "assigned owner",
+      "priority and routing decision"
+    ],
     "is_review": false,
     "is_approval": false,
     "is_bottleneck": false,
@@ -51,8 +63,14 @@
     "owner_role": "Adjuster",
     "sequence_index": 2,
     "cycle_time_hours": 16.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "assigned claim",
+      "supporting documents"
+    ],
+    "outputs": [
+      "review findings",
+      "approval recommendation"
+    ],
     "is_review": true,
     "is_approval": false,
     "is_bottleneck": false,
@@ -74,8 +92,14 @@
     "owner_role": "Claims Manager",
     "sequence_index": 3,
     "cycle_time_hours": 40.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "review findings",
+      "approval recommendation"
+    ],
+    "outputs": [
+      "manager decision",
+      "payment authorization"
+    ],
     "is_review": false,
     "is_approval": true,
     "is_bottleneck": true,
@@ -97,8 +121,14 @@
     "owner_role": "Finance",
     "sequence_index": 4,
     "cycle_time_hours": 12.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "payment authorization",
+      "payment ledger"
+    ],
+    "outputs": [
+      "disbursement record",
+      "finance status"
+    ],
     "is_review": false,
     "is_approval": false,
     "is_bottleneck": false,
@@ -120,8 +150,14 @@
     "owner_role": "Adjuster",
     "sequence_index": 5,
     "cycle_time_hours": 18.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "flagged claim",
+      "missing or conflicting evidence"
+    ],
+    "outputs": [
+      "exception note",
+      "review rework request"
+    ],
     "is_review": false,
     "is_approval": false,
     "is_bottleneck": false,
@@ -143,8 +179,14 @@
     "owner_role": "Intake Clerk",
     "sequence_index": 6,
     "cycle_time_hours": 3.0,
-    "inputs": [],
-    "outputs": [],
+    "inputs": [
+      "paid claim",
+      "final status"
+    ],
+    "outputs": [
+      "closed claim record",
+      "customer notification"
+    ],
     "is_review": false,
     "is_approval": false,
     "is_bottleneck": false,
