@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Trading League | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">Python / SQLite / replay scoring / bounded learning</p>
+          <h1>Agent Trading League</h1>
+          <p class="lead">
+            A local command center where trading agents with different styles compete through
+            historical replay, produce evidence, and queue bounded learning patches before any
+            promotion toward Sim101 or live operation.
+          </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
+        </div>
+        <img src="media/agent-trading-league.png" alt="Agent Trading League command center showing league standings, replay metrics, and selected agent evidence" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Agent competition with trust controls</h2>
+          <p>
+            The system keeps adaptive agents subordinate to replay evidence, holdout checks,
+            operator approval, and auditable patch application.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="Agent Trading League architecture flow">
+              <div class="flow-step"><span>1</span><h3>Roster + Replay Queue</h3><p>Agents, strategy styles, symbols, and replay jobs enter one local control surface.</p></div>
+              <div class="flow-step"><span>2</span><h3>Scoring Engine</h3><p>PnL, drawdown, profit factor, win rate, and rule violations are computed from replay.</p></div>
+              <div class="flow-step"><span>3</span><h3>Evidence Dashboard</h3><p>Standings, agent detail, warnings, and holdout signals stay visible.</p></div>
+              <div class="flow-step"><span>4</span><h3>Patch Gate</h3><p>Learning changes are proposed, approved, applied, and recorded as bounded updates.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Potential Business Impact</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Faster comparison</strong><span>Multiple agents can be reviewed through the same scoring and replay lens.</span></div>
+              <div class="savings-card"><strong>Lower promotion risk</strong><span>Holdout-aware checks make weak or unsafe changes harder to approve casually.</span></div>
+              <div class="savings-card"><strong>Less audit work</strong><span>Patch history and replay evidence reduce manual reconstruction after a change.</span></div>
+            </div>
+            <p class="roi-note">Savings are presented as operational leverage, not a trading-performance or profitability claim.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            Strategy agents can look promising in isolated tests while still being unsafe to
+            promote. The system needs a way to compare different trading personalities, preserve
+            replay evidence, and make learning adjustments without letting agents rewrite risk
+            controls on their own.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            The League runs as a local Python dashboard over SQLite with roster management, replay
+            queues, evidence panels, promotion gates, and an audit-backed learning patch workflow.
+            Agents such as ORB Breakout, Trend Continuation, and Mean Reversion are scored from
+            replay outcomes before any operator action.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>Agent orchestration that compares distinct trading styles through one operating surface.</li>
+            <li>Replay-first evidence with PnL, profit factor, drawdown, win rate, and rule-violation signals.</li>
+            <li>Trust controls through train, validation, and holdout splits instead of status-only approvals.</li>
+            <li>Bounded adaptation where learning patches adjust guarded config values and record applied state.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Current Evidence</h2>
+          <p>
+            The local app health endpoint returned 200, and the repository test suite passed 12
+            tests after the capture pass. The public screenshot is cropped from the live local
+            dashboard and excludes local market-data paths, raw database files, and account state.
+          </p>
+        </article>
+        <article>
+          <h2>Redaction Note</h2>
+          <p>
+            This is presented as software architecture and trading-operations tooling, not trading
+            advice or a profitability claim. Public materials omit raw market data, local paths,
+            live account details, broker identifiers, and proprietary strategy parameters.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>Agent Trading League</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>

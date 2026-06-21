@@ -1,0 +1,26 @@
+{
+  "bundle_version": "1.0",
+  "run_id": "meridian-portfolio-demo",
+  "company": {
+    "name": "Meridian Claims Co.",
+    "fictional": true,
+    "domain": "insurance-claims"
+  },
+  "generated_at": "2026-06-21T09:53:04-06:00",
+  "engine": {
+    "llm_backend": "ollama",
+    "model": "deterministic (process-mining + rules)",
+    "prompt_set": "v1",
+    "temperature": 0.0
+  },
+  "counts": {
+    "artifacts": 6,
+    "steps": 7,
+    "edges": 8,
+    "risks": 8,
+    "automations": 6,
+    "reviews": 5
+  },
+  "safe_mode": true,
+  "hashes": {}
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MA-Cross Workbench | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">Flask / ta_foundation / Cost-aware discovery</p>
+          <h1>MA-Cross Workbench</h1>
+          <p class="lead">
+            A local research app that turns moving-average ideas into an honest
+            workflow: inspect the signal, run cost-aware discovery, then require
+            cross-instrument proof before treating anything as a candidate edge.
+          </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
+        </div>
+        <img src="media/ma-cross-workbench.png" alt="MA-Cross Workbench chart with moving averages and crossover markers" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Research ideas forced through evidence gates</h2>
+          <p>
+            The workbench keeps a simple strategy concept from becoming an overfit conclusion by
+            making signal inspection, costs, and robustness checks visible.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="MA-Cross Workbench architecture flow">
+              <div class="flow-step"><span>1</span><h3>Market Data</h3><p>Local exports feed the research pipeline without exposing raw files publicly.</p></div>
+              <div class="flow-step"><span>2</span><h3>Signal Features</h3><p>Moving averages, crossovers, and timing features are generated for review.</p></div>
+              <div class="flow-step"><span>3</span><h3>Cost-Aware Sweep</h3><p>Commission, slippage, fills, and trade count sit beside candidate performance.</p></div>
+              <div class="flow-step"><span>4</span><h3>Robustness Gate</h3><p>Cross-instrument and out-of-sample checks limit fragile conclusions.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Potential Business Impact</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Less spreadsheet testing</strong><span>Signal inspection and sweeps live in one repeatable surface.</span></div>
+              <div class="savings-card"><strong>Faster discard decisions</strong><span>Weak candidates can fail cost or robustness checks earlier.</span></div>
+              <div class="savings-card"><strong>Better review quality</strong><span>Costs and degradation metadata stay near the leaderboard instead of hidden in notes.</span></div>
+            </div>
+            <p class="roi-note">Savings describe research-process efficiency, not market edge or financial outcome.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-media-strip single" aria-label="MA-Cross Workbench capture">
+        <figure>
+          <img src="media/ma-cross-workbench.png" alt="MA-Cross Workbench explorer tab with MA overlays and recent crossover signals" />
+          <figcaption>
+            Explorer tab after a local run: price, moving averages, crossover markers, and signal count shown before any heavier discovery sweep.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            Strategy research can produce attractive charts and fragile backtest
+            numbers. The workflow needed a way to make hypothesis review visible,
+            cost-aware, and resistant to small-sample or overfit conclusions.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            The workbench is a thin Flask UI over existing `ta_foundation` engines:
+            MA feature generation, signal detection, entry timing, outcome simulation,
+            discovery sweeps, and cross-instrument robustness evaluation.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>Research UI design that follows the actual analytical pipeline.</li>
+            <li>Cost-aware evaluation with commission, slippage, fill rate, and trade count visible.</li>
+            <li>Out-of-sample degradation and hardening metadata near the leaderboard, not hidden in notes.</li>
+            <li>Cross-instrument proof across independent futures instruments as an anti-overfit gate.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Redaction Note</h2>
+          <p>
+            The public screenshot shows the local workbench surface and generic
+            instrument/contract labels. Raw market-data exports, local paths,
+            proprietary parameter files, and private research artifacts are withheld.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>MA-Cross Workbench</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>

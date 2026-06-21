@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Application Factory | Eric Irwin Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=20260618w1" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">EI</span>
+        <span><strong>Eric Irwin</strong><small>AI Software Engineer</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#proof">Proof</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <div>
+          <p class="eyebrow">RAG / Local LLMs / Streamlit / Critic agents</p>
+          <h1>Job Application Factory</h1>
+          <p class="lead">
+            A local-first AI career copilot that drafts job-application assets from approved
+            evidence, then checks for unsupported claims before export.
+          </p>
+          <div class="case-actions">
+            <a class="button primary" href="#architecture-savings">View Architecture + Savings</a>
+            <a class="button secondary" href="index.html#process">See Build Process</a>
+          </div>
+        </div>
+        <img src="media/job-application-factory.png" alt="Job Application Factory in mock demo mode using Alex Builder profile" />
+      </section>
+
+      <section class="architecture-savings" id="architecture-savings" aria-labelledby="architecture-savings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture + savings</p>
+          <h2 id="architecture-savings-title">Evidence-grounded generation with a critic loop</h2>
+          <p>
+            The system separates private source evidence from generation, review, and export so
+            AI output can be useful without inventing unsupported claims.
+          </p>
+        </div>
+        <div class="architecture-layout">
+          <article class="diagram-panel">
+            <h3>Workflow Architecture</h3>
+            <div class="flow-diagram" aria-label="Job Application Factory architecture flow">
+              <div class="flow-step"><span>1</span><h3>Approved Evidence</h3><p>Resume facts, accomplishments, and role context stay in a local library.</p></div>
+              <div class="flow-step"><span>2</span><h3>Job Matching</h3><p>Retrieval and scoring connect target roles to relevant proof.</p></div>
+              <div class="flow-step"><span>3</span><h3>Package Builder</h3><p>Local/demo AI drafts tailored resume, cover letter, and outreach assets.</p></div>
+              <div class="flow-step"><span>4</span><h3>Critic Review</h3><p>Validation checks flag unsupported claims before export.</p></div>
+            </div>
+          </article>
+          <article class="savings-panel">
+            <h3>Potential Business Impact</h3>
+            <div class="savings-grid">
+              <div class="savings-card"><strong>Less manual tailoring</strong><span>Reusable evidence reduces blank-page writing for each new role.</span></div>
+              <div class="savings-card"><strong>Fewer quality misses</strong><span>Critic checks help catch claims that are not backed by the evidence library.</span></div>
+              <div class="savings-card"><strong>Private by design</strong><span>Local data boundaries reduce exposure risk during drafting and review.</span></div>
+            </div>
+            <p class="roi-note">Savings are framed as pilot targets until measured against the user's current application workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail">
+        <article>
+          <h2>Problem</h2>
+          <p>
+            Generic AI resume tools create shallow, risky application materials. The useful version
+            needs to stay grounded in real accomplishments, preserve privacy, and adapt the story to
+            each role.
+          </p>
+        </article>
+        <article>
+          <h2>Solution</h2>
+          <p>
+            Job Application Factory uses a private evidence library, local/demo LLM workflows,
+            semantic job matching, package generation, and critic checks. The public demo runs in
+            Mock Demo Mode using a fictional profile.
+          </p>
+        </article>
+        <article>
+          <h2>Where This Fits</h2>
+          <p>
+            Forward this for AI workflow, document automation, or local-first assistant work. It
+            shows how to build useful generation around evidence, privacy, review, and quality
+            controls instead of relying on unsupported AI output.
+          </p>
+        </article>
+        <article>
+          <h2>What It Proves</h2>
+          <ul>
+            <li>RAG-grounded generation instead of unsupported claim invention.</li>
+            <li>Multi-agent workflow design with critic/self-correction behavior.</li>
+            <li>Streamlit product design across onboarding, discovery, packages, and tracking.</li>
+            <li>Privacy-aware local data boundaries through a configurable data directory.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Verification</h2>
+          <p>
+            Current audit: key dependencies imported successfully. The app launched with a temporary
+            `JAF_DATA_DIR`, Mock Demo Mode was enabled, Alex Builder demo profile was visible, and
+            Live Mode was not active in the screenshot session.
+          </p>
+        </article>
+        <article>
+          <h2>Redaction Note</h2>
+          <p>
+            Public screenshots use mock demo data only. Real resumes, job targets, contacts,
+            generated application packages, `.env`, and local databases stay private.
+          </p>
+        </article>
+      </section>
+
+      <section class="case-media-strip single" aria-label="Job Application Factory package proof">
+        <figure>
+          <img src="media/jaf-package-proof.png" alt="Job Application Factory mock demo package proof showing a fictional Alex Builder package, validation pass, generated artifacts, and safety checks" />
+          <figcaption>
+            Mock package proof: fictional Alex Builder/VibeTech data, generated artifacts, and critic validation signals.
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer><span>Job Application Factory</span><a href="index.html#work">Back to work</a></footer>
+  </body>
+</html>

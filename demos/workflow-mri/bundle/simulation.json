@@ -1,0 +1,23 @@
+{
+  "is_simulated": true,
+  "before": {
+    "total_cycle_time_hours": 108.0,
+    "handoffs": 8,
+    "rework_rate": 0.27,
+    "monthly_cost": 13700.0
+  },
+  "after": {
+    "total_cycle_time_hours": 71.0,
+    "handoffs": 5,
+    "rework_rate": 0.09,
+    "monthly_cost": 9000.0
+  },
+  "assumptions": [
+    "Volume held constant at ~320 claims/month (fictional).",
+    "Auto-routing removes the duplicated triage handoff.",
+    "Review enforcement + duplicate checks cut the rework loop by ~65%.",
+    "SLA alerts halve the bottleneck's average dwell.",
+    "Labor costed at a flat fictional $95/hr blended rate; illustrative only."
+  ],
+  "method": "deterministic estimate over the mined directly-follows graph"
+}
