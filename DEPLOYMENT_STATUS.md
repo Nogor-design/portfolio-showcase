@@ -1,6 +1,6 @@
 # Deployment Status
 
-Status: Workflow MRI twelve-case flagship package is live and verified on GitHub Pages
+Status: Workflow MRI generated-bundle refresh is live and verified on GitHub Pages
 Last checked: 2026-06-20
 
 ## Current GitHub State
@@ -35,7 +35,7 @@ Conclusion: this URL is still serving the older manual drag-drop deploy, not the
 https://nogor-design.github.io/portfolio-showcase/
 ```
 
-Live check result after Workflow MRI flagship publish:
+Live check result after Workflow MRI generated-bundle refresh:
 
 - HTTP status: 200
 - Categorized homepage rendered: yes
@@ -45,6 +45,10 @@ Live check result after Workflow MRI flagship publish:
 - Workflow MRI portfolio-hosted live demo linked from homepage: yes
 - Workflow MRI case page returns the expected title/H1 and image loads: yes
 - Workflow MRI embedded demo returns HTTP 200 and React content loads: yes
+- Workflow MRI homepage proof shows generated bundle, 100% eval recall, and 253 passing tests: yes
+- Workflow MRI case page includes audit trail, eval metrics, and Phase 2 / core Phase 3 status: yes
+- Workflow MRI embedded demo loads the new generated Meridian bundle counts: 6 artifacts, 7 steps, 8 risks, 6 automations
+- Workflow MRI embedded demo Export view shows the generated audit trail and updated public-download copy: yes
 - `case-fate-scenario-weaver.html` linked from homepage: yes
 - `case-agent-trading-league.html` linked from homepage: yes
 - `case-ninja-account-manager.html` linked from homepage: yes
@@ -68,6 +72,7 @@ Browser QA result:
 
 - Local desktop and mobile render passed across all 13 site pages before publish.
 - Live homepage, Workflow MRI case page, and embedded Workflow MRI demo rendered after publish.
+- Embedded Workflow MRI demo opened the workbench and Export view; audit trail, critic pass, Safe Mode, and updated public-download copy were visible.
 - Live mobile homepage rendered after publish.
 - No missing images.
 - No missing alt text.
@@ -118,6 +123,12 @@ The branch-publish workflow completed successfully for the Workflow MRI flagship
 
 ```text
 https://github.com/Nogor-design/portfolio-showcase/actions/runs/27885300496
+```
+
+The branch-publish workflow completed successfully for the Workflow MRI generated-bundle refresh:
+
+```text
+https://github.com/Nogor-design/portfolio-showcase/actions/runs/27888902105
 ```
 
 ## Current Manual Redeploy Package
