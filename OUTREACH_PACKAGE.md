@@ -53,7 +53,7 @@ Portfolio: https://nogor-design.github.io/portfolio-showcase/
 
 Resume: https://nogor-design.github.io/portfolio-showcase/Eric_Irwin_AI_Software_Engineer_Lead_Resume.pdf
 
-The three best links to open first are Workflow MRI, the live Trades Resource Command Center demo, and the Recipe Optimizer clickable mockup. Workflow MRI is the new flagship: it shows how I turn messy files and handoffs into a governed operating system with a process graph, risks, review queue, automation candidates, and handoff package. The Trades demo shows a staffing operations dashboard built around daily workflow, customer review, open orders, assignment endings, and recruiter follow-up. The Recipe Optimizer mockup shows the design process side: how I think through a complex operator workflow before turning it into production software.
+The three best links to open first are Workflow MRI, the live Trades Resource Command Center demo, and the Recipe Optimizer clickable mockup. Workflow MRI is the new flagship: it shows how I turn messy files and handoffs into a governed operating system with a generated process graph, risks, review queue, automation candidates, audit trail, eval report, and handoff package. The Trades demo shows a staffing operations dashboard built around daily workflow, customer review, open orders, assignment endings, and recruiter follow-up. The Recipe Optimizer mockup shows the design process side: how I think through a complex operator workflow before turning it into production software.
 
 The portfolio is strongest for work around internal tools, AI workflow systems, spreadsheet-to-product builds, analytics/reporting systems, and local-first platforms where private data, review loops, and proof matter.
 
@@ -75,8 +75,8 @@ Eric is strongest when the work is messy, operational, and hard to explain befor
 ## Best Links To Open First
 
 1. Workflow MRI
-   - Use for: AI workflow systems, internal-tool discovery, process mapping, governance, and messy operations automation.
-   - Why it matters: it is the flagship demo that unifies the portfolio's strongest theme: turning scattered artifacts into a visible, auditable operating system.
+   - Use for: AI workflow systems, internal-tool discovery, process mapping, governance, evals, and messy operations automation.
+   - Why it matters: it is the flagship demo that unifies the portfolio's strongest theme: turning scattered artifacts into a visible, auditable operating system with measured proof.
 
 2. Trades Resource Command Center
    - Use for: internal tools, operations dashboards, staffing workflows, spreadsheet-to-product work.
@@ -102,7 +102,7 @@ Eric is strongest when the work is messy, operational, and hard to explain befor
 
 This portfolio is built around practical software, not toy demos. The strongest theme is turning messy workflows into visible, testable tools: Workflow MRI for process diagnosis, staffing operations, job-application generation, idea validation, trading analytics, and client launch surfaces.
 
-Workflow MRI shows the flagship pattern: messy artifacts become a governed operating system. The live Trades demo shows Eric can build a usable operational dashboard. The Recipe Optimizer mockup shows his design process for complex technical workflows. The supporting projects show AI systems, local-first data handling, automation, analytics, testing, and public-safe packaging.
+Workflow MRI shows the flagship pattern: messy artifacts become a governed operating system, then get checked with audit output and evals. The live Trades demo shows Eric can build a usable operational dashboard. The Recipe Optimizer mockup shows his design process for complex technical workflows. The supporting projects show AI systems, local-first data handling, automation, analytics, testing, and public-safe packaging.
 
 ## Feedback Ask For Laura
 

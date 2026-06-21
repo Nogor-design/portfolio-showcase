@@ -21,7 +21,7 @@ http://127.0.0.1:8787/
 | Page | Purpose |
 |---|---|
 | `index.html` | Portfolio homepage with featured case studies, proof points, services, and resume link |
-| `case-workflow-mri.html` | Flagship workflow diagnostic and governed static replay case study |
+| `case-workflow-mri.html` | Flagship workflow diagnostic, generated bundle, governance, and evals case study |
 | `case-empire-of-drawdown.html` | Trading strategy game / deterministic replay case study |
 | `case-job-application-factory.html` | Local-first RAG and multi-agent application factory case study |
 | `case-trades-resource.html` | Staffing operations dashboard case study |
@@ -38,7 +38,7 @@ http://127.0.0.1:8787/
 
 | File | Source / Safety |
 |---|---|
-| `media/workflow-mri-workbench.png` | Captured from deterministic Workflow MRI Meridian Claims demo with Safe Mode ON and fictional data only |
+| `media/workflow-mri-workbench.png` | Captured from the generated Workflow MRI Meridian Claims bundle with Safe Mode ON and fictional data only |
 | `media/empire-of-drawdown.png` | Captured from demo-mode local app |
 | `media/empire-battle-replay.png` | Captured from seeded demo Battle Replay |
 | `media/empire-debrief.png` | Captured from seeded demo Debrief Chamber |
@@ -67,6 +67,7 @@ Latest verification checked:
 - Homepage and case-study pages render without horizontal overflow at desktop width.
 - Workflow MRI case page and workbench visual load on the homepage and case-study page.
 - Workflow MRI embedded demo is served from `demos/workflow-mri/`.
+- Workflow MRI embedded demo includes the generated Meridian Claims bundle, audit trail, eval-backed proof points, and Safe Mode redaction.
 - Homepage, Empire case study, Job Application Factory case study, and TA Foundation case study render without horizontal overflow at 390px mobile width.
 - Images load with nonzero dimensions and alt text.
 - Job Application Factory proof visual loads on the case-study page.

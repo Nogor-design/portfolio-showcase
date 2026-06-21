@@ -52,6 +52,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | WK5-003 | done | Codex | Agent Trading League | Add replay-scored agent case and homepage categories | `case-agent-trading-league.html`, cropped screenshot, categorized homepage | Local app health checked; 12 tests passed; app banner height fixed locally |
 | WK5-004 | done | Codex | Fate Scenario Weaver | Add creative-AI scenario workbench case | `case-fate-scenario-weaver.html` plus seeded screenshot | Lint/build passed; screenshot captured from temporary mock-provider SQLite demo |
 | WK6-001 | done | Codex | Workflow MRI | Promote Workflow MRI as flagship portfolio case | `case-workflow-mri.html`, homepage flagship card, workbench screenshot | Static React workbench verified; 2 web tests, 2 engine tests, and web build passed |
+| WK6-002 | done | Codex | Workflow MRI | Refresh portfolio from mature generated-bundle build | Updated homepage/case copy, embedded demo bundle, outreach docs | New build includes audit trail; source eval report shows 100% target recall and 0.0% hallucination |
 
 ## Completed Discovery
 
@@ -89,6 +90,7 @@ This is the active work queue. Every delegated task should have a bounded owner,
 | 2026-06-17 | Codex | Added Agent Trading League case, recaptured the dashboard with a smaller app banner, and grouped the homepage into professional categories |
 | 2026-06-17 | Codex | Added Fate Scenario Weaver as an AI-assisted creative scenario workbench using a seeded public-safe demo database |
 | 2026-06-20 | Codex | Promoted Workflow MRI as the flagship workflow diagnostic with a public-safe workbench screenshot and case page |
+| 2026-06-20 | Codex | Refreshed Workflow MRI portfolio copy and embedded demo from the mature generated-bundle build with audit output and eval proof |
 
 ## Delegation Prompt Pattern
 

@@ -1,6 +1,6 @@
 # Next Actions
 
-Status as of 2026-06-20 Workflow MRI flagship integration.
+Status as of 2026-06-20 Workflow MRI generated-bundle refresh.
 
 ## Verified So Far
 
@@ -146,12 +146,12 @@ Status as of 2026-06-20 Workflow MRI flagship integration.
   - `site/case-fate-scenario-weaver.html` added.
   - Homepage now presents 11 categorized case studies.
 - Workflow MRI flagship integration:
-  - `D:\workflow\workflow-mri` inspected and verified as a deterministic static React workbench over fictional Meridian Claims data.
-  - Workflow MRI README and roadmap updated to reflect Phase 1 demo status.
-  - Workflow MRI web test suite now includes Safe Mode redaction coverage; `npm test`, `npm run build`, and engine `python -m pytest` pass.
-  - Public-safe screenshot captured at `site/media/workflow-mri-workbench.png`.
-  - `site/case-workflow-mri.html` added.
-  - Homepage now promotes Workflow MRI as the first flagship case, with an embedded portfolio-hosted demo and code links.
+  - `D:\workflow\workflow-mri` inspected and verified as a generated-bundle static React workbench over fictional Meridian Claims data.
+  - Workflow MRI source now includes richer fictional inputs, process mining, governance checks, review tasks, automation ranking, before/after simulation, audit output, critic checks, and eval reporting.
+  - Current eval report shows 100% recall for steps, edge kinds, risk categories, PII detection, and bottleneck detection, with 0.0% hallucination rate.
+  - Current test posture is 19 engine tests plus 2 web redaction tests; the embedded demo was rebuilt with `VITE_BASE=./` and refreshed under `site/demos/workflow-mri/`.
+  - Public-safe screenshot remains `site/media/workflow-mri-workbench.png`.
+  - `site/case-workflow-mri.html` and the homepage now position Workflow MRI as the first flagship case, with generated-bundle proof, eval proof points, audit trail, embedded demo, and code links.
 
 ## Current Local Open Command
 
